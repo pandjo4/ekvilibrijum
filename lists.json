@@ -1,8 +1,8 @@
 {
   "countries_area": {
     "title": "Najveće države po površini",
-    "description": "Države poredane po približnoj ukupnoj površini. Izvori se mogu razlikovati po tretmanu unutrašnjih voda i teritorija.",
-    "source": "Javne geografske reference; poredak je urednički i približan.",
+    "description": "Države poredane po približnoj ukupnoj površini. Poredak SAD-a i Kine može se razlikovati zavisno od metodologije i tretmana voda/teritorija.",
+    "source": "Opće geografske reference; približan poredak, metodologije ukupne površine se razlikuju.",
     "items": [
       {
         "rank": 1,
@@ -67,9 +67,9 @@
     ]
   },
   "games_sales": {
-    "title": "Najprodavanije videoigre",
-    "description": "Procjene prodaje kroz više izdanja i platformi; metodologije izdavača nisu uvijek iste.",
-    "source": "Javno objavljene procjene prodaje; urednički Top 15, ne jedinstvena službena tabela.",
+    "title": "Komercijalno najuspješnije i najprodavanije videoigre",
+    "description": "Odabrane igre s vrlo velikom prijavljenom prodajom ili publikom. Tačan poredak nije stroga tabela jer se izvori razlikuju po prodanim kopijama, besplatnim igrama i platformama.",
+    "source": "Javno objavljene procjene izdavača i industrije; urednički izbor, ne precizan službeni rang.",
     "items": [
       {
         "rank": 1,
@@ -135,8 +135,8 @@
   },
   "films_gross": {
     "title": "Filmovi s najvećom svjetskom kino-zaradom",
-    "description": "Nominalna svjetska kino-zarada, uključujući reizdanja; iznosi se mijenjaju.",
-    "source": "Box-office javne tabele; redoslijed može varirati nakon reizdanja.",
+    "description": "Filmovi s najvećom nominalnom svjetskom kino-zaradom, uključujući reizdanja. Poredak je promjenjiv i može se razlikovati među bazama.",
+    "source": "Javne box-office baze; iznosi i poredak zavise od datuma ažuriranja i tretmana reizdanja.",
     "items": [
       {
         "rank": 1,
@@ -201,9 +201,9 @@
     ]
   },
   "animals": {
-    "title": "Najbrže kopnene životinje",
-    "description": "Brzine su približne i zavise od podvrste, terena i načina mjerenja.",
-    "source": "Popularno-naučne reference; poredak je približan.",
+    "title": "Brze kopnene životinje",
+    "description": "Odabrane kopnene životinje poznate po velikoj brzini. Redoslijed je približan jer se mjerenja, udaljenost i podvrste razlikuju; nije stroga naučna rang-lista.",
+    "source": "Popularno-naučne reference; približan urednički izbor.",
     "items": [
       {
         "rank": 1,
@@ -255,7 +255,7 @@
       },
       {
         "rank": 13,
-        "name": "Jelen"
+        "name": "Impala"
       },
       {
         "rank": 14,
@@ -263,14 +263,14 @@
       },
       {
         "rank": 15,
-        "name": "Slon"
+        "name": "Hijena"
       }
     ]
   },
   "languages": {
     "title": "Jezici s najviše maternjih govornika",
-    "description": "Poredak zavisi od procjena i od toga kako se grupišu srodni jezici.",
-    "source": "Ethnologue i Britannica; procjene se razlikuju po izdanju.",
+    "description": "Jezici s velikim brojem maternjih govornika. Procjene i redoslijed zavise od izvora te od toga smatraju li se pojedini jezički kontinuumi jednim jezikom ili više njih.",
+    "source": "Procjene Ethnologue i drugih lingvističkih referenci; poredak je približan.",
     "items": [
       {
         "rank": 1,
@@ -403,8 +403,8 @@
   },
   "elements": {
     "title": "Najzastupljeniji elementi u Zemljinoj kori",
-    "description": "Poredak prema približnom masenom udjelu u Zemljinoj kori, ne cijeloj planeti.",
-    "source": "Standardne geološke reference; približni udjeli.",
+    "description": "Približan poredak po masenom udjelu u Zemljinoj kori. Nakon prvih osam udjeli su mnogo manji, a mjesta zavise od referentne procjene.",
+    "source": "Standardne geološke reference; približni maseni udjeli.",
     "items": [
       {
         "rank": 1,
@@ -464,7 +464,7 @@
       },
       {
         "rank": 15,
-        "name": "Ugljik"
+        "name": "Stroncij"
       }
     ]
   },
@@ -737,9 +737,9 @@
     ]
   },
   "tech": {
-    "title": "Najveće tehnološke kompanije po tržišnoj vrijednosti",
-    "description": "Tržišna vrijednost se mijenja svakodnevno; ovo nije trenutna berzanska tabela.",
-    "source": "Inspirisano javnim tržišnim pregledima; urednički skup primjera.",
+    "title": "Velike tehnološke kompanije po tržišnoj vrijednosti",
+    "description": "Orijentacijski izbor velikih tehnoloških kompanija. Tržišne vrijednosti se svakodnevno mijenjaju, a granice kategorije „tehnološka kompanija” nisu jednake u svim izvorima.",
+    "source": "Javni tržišni podaci; urednički izbor, ne live rang-lista.",
     "items": [
       {
         "rank": 1,
@@ -763,43 +763,43 @@
       },
       {
         "rank": 6,
-        "name": "Saudi Aramco"
+        "name": "Meta Platforms"
       },
       {
         "rank": 7,
-        "name": "Meta"
-      },
-      {
-        "rank": 8,
         "name": "TSMC"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "name": "Broadcom"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "name": "Tesla"
       },
       {
-        "rank": 11,
-        "name": "Berkshire Hathaway"
-      },
-      {
-        "rank": 12,
+        "rank": 10,
         "name": "Oracle"
       },
       {
-        "rank": 13,
+        "rank": 11,
         "name": "Tencent"
       },
       {
-        "rank": 14,
+        "rank": 12,
         "name": "Samsung Electronics"
       },
       {
+        "rank": 13,
+        "name": "ASML"
+      },
+      {
+        "rank": 14,
+        "name": "AMD"
+      },
+      {
         "rank": 15,
-        "name": "Walmart"
+        "name": "Salesforce"
       }
     ]
   },
@@ -1068,6 +1068,3222 @@
       {
         "rank": 15,
         "name": "Palačinke"
+      }
+    ]
+  },
+  "mountains": {
+    "title": "Najviši planinski vrhovi svijeta",
+    "description": "Poredak prema nadmorskoj visini.",
+    "source": "Geografske reference.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Mount Everest"
+      },
+      {
+        "rank": 2,
+        "name": "K2"
+      },
+      {
+        "rank": 3,
+        "name": "Kančendženga"
+      },
+      {
+        "rank": 4,
+        "name": "Lhotse"
+      },
+      {
+        "rank": 5,
+        "name": "Makalu"
+      },
+      {
+        "rank": 6,
+        "name": "Cho Oyu"
+      },
+      {
+        "rank": 7,
+        "name": "Dhaulagiri I"
+      },
+      {
+        "rank": 8,
+        "name": "Manaslu"
+      },
+      {
+        "rank": 9,
+        "name": "Nanga Parbat"
+      },
+      {
+        "rank": 10,
+        "name": "Annapurna I"
+      },
+      {
+        "rank": 11,
+        "name": "Gasherbrum I"
+      },
+      {
+        "rank": 12,
+        "name": "Broad Peak"
+      },
+      {
+        "rank": 13,
+        "name": "Gasherbrum II"
+      },
+      {
+        "rank": 14,
+        "name": "Shishapangma"
+      },
+      {
+        "rank": 15,
+        "name": "Gyachung Kang"
+      }
+    ]
+  },
+  "countries_population": {
+    "title": "Države s najviše stanovnika",
+    "description": "Procjene stanovništva variraju po godini i izvoru.",
+    "source": "Demografske procjene sredinom 2020-ih.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Indija"
+      },
+      {
+        "rank": 2,
+        "name": "Kina"
+      },
+      {
+        "rank": 3,
+        "name": "Sjedinjene Američke Države"
+      },
+      {
+        "rank": 4,
+        "name": "Indonezija"
+      },
+      {
+        "rank": 5,
+        "name": "Pakistan"
+      },
+      {
+        "rank": 6,
+        "name": "Nigerija"
+      },
+      {
+        "rank": 7,
+        "name": "Brazil"
+      },
+      {
+        "rank": 8,
+        "name": "Bangladeš"
+      },
+      {
+        "rank": 9,
+        "name": "Rusija"
+      },
+      {
+        "rank": 10,
+        "name": "Etiopija"
+      },
+      {
+        "rank": 11,
+        "name": "Meksiko"
+      },
+      {
+        "rank": 12,
+        "name": "Japan"
+      },
+      {
+        "rank": 13,
+        "name": "Egipat"
+      },
+      {
+        "rank": 14,
+        "name": "Filipini"
+      },
+      {
+        "rank": 15,
+        "name": "Demokratska Republika Kongo"
+      }
+    ]
+  },
+  "football_national": {
+    "title": "Uspješne fudbalske reprezentacije na Svjetskom prvenstvu",
+    "description": "Urednički izbor historijski uspješnih reprezentacija prema titulama, finalima i dubokim plasmanima. Nije rang-lista samo po broju titula: nekoliko reprezentacija nikad nije osvojilo prvenstvo.",
+    "source": "Historijski rezultati FIFA Svjetskog prvenstva; poredak nakon osvajača je urednički.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Brazil"
+      },
+      {
+        "rank": 2,
+        "name": "Njemačka"
+      },
+      {
+        "rank": 3,
+        "name": "Italija"
+      },
+      {
+        "rank": 4,
+        "name": "Argentina"
+      },
+      {
+        "rank": 5,
+        "name": "Francuska"
+      },
+      {
+        "rank": 6,
+        "name": "Urugvaj"
+      },
+      {
+        "rank": 7,
+        "name": "Engleska"
+      },
+      {
+        "rank": 8,
+        "name": "Španija"
+      },
+      {
+        "rank": 9,
+        "name": "Nizozemska"
+      },
+      {
+        "rank": 10,
+        "name": "Mađarska"
+      },
+      {
+        "rank": 11,
+        "name": "Češka"
+      },
+      {
+        "rank": 12,
+        "name": "Švedska"
+      },
+      {
+        "rank": 13,
+        "name": "Hrvatska"
+      },
+      {
+        "rank": 14,
+        "name": "Portugal"
+      },
+      {
+        "rank": 15,
+        "name": "Belgija"
+      }
+    ]
+  },
+  "football_players": {
+    "title": "Legendarni fudbaleri svih vremena",
+    "description": "Subjektivna lista poznatih igrača iz različitih era, nije službeni statistički rang.",
+    "source": "Urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 2,
+        "name": "Pelé"
+      },
+      {
+        "rank": 3,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 4,
+        "name": "Diego Maradona"
+      },
+      {
+        "rank": 5,
+        "name": "Johan Cruyff"
+      },
+      {
+        "rank": 6,
+        "name": "Zinedine Zidane"
+      },
+      {
+        "rank": 7,
+        "name": "Ronaldo Nazário"
+      },
+      {
+        "rank": 8,
+        "name": "Franz Beckenbauer"
+      },
+      {
+        "rank": 9,
+        "name": "Ronaldinho"
+      },
+      {
+        "rank": 10,
+        "name": "Alfredo Di Stéfano"
+      },
+      {
+        "rank": 11,
+        "name": "Michel Platini"
+      },
+      {
+        "rank": 12,
+        "name": "Ferenc Puskás"
+      },
+      {
+        "rank": 13,
+        "name": "Andrés Iniesta"
+      },
+      {
+        "rank": 14,
+        "name": "Xavi"
+      },
+      {
+        "rank": 15,
+        "name": "George Best"
+      }
+    ]
+  },
+  "basketball": {
+    "title": "Najpoznatiji NBA košarkaši svih vremena",
+    "description": "Urednički izbor prema utjecaju, trofejima i popularnosti.",
+    "source": "Historijski pregled NBA lige.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Michael Jordan"
+      },
+      {
+        "rank": 2,
+        "name": "LeBron James"
+      },
+      {
+        "rank": 3,
+        "name": "Kareem Abdul-Jabbar"
+      },
+      {
+        "rank": 4,
+        "name": "Magic Johnson"
+      },
+      {
+        "rank": 5,
+        "name": "Kobe Bryant"
+      },
+      {
+        "rank": 6,
+        "name": "Bill Russell"
+      },
+      {
+        "rank": 7,
+        "name": "Larry Bird"
+      },
+      {
+        "rank": 8,
+        "name": "Tim Duncan"
+      },
+      {
+        "rank": 9,
+        "name": "Shaquille O’Neal"
+      },
+      {
+        "rank": 10,
+        "name": "Stephen Curry"
+      },
+      {
+        "rank": 11,
+        "name": "Wilt Chamberlain"
+      },
+      {
+        "rank": 12,
+        "name": "Kevin Durant"
+      },
+      {
+        "rank": 13,
+        "name": "Hakeem Olajuwon"
+      },
+      {
+        "rank": 14,
+        "name": "Oscar Robertson"
+      },
+      {
+        "rank": 15,
+        "name": "Nikola Jokić"
+      }
+    ]
+  },
+  "oscar_movies": {
+    "title": "Filmovi s najviše osvojenih Oscara",
+    "description": "Broj osvojenih takmičarskih Oscara; više filmova dijeli isti rekord.",
+    "source": "Historija dodjele Academy Awards.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Ben-Hur"
+      },
+      {
+        "rank": 2,
+        "name": "Titanic"
+      },
+      {
+        "rank": 3,
+        "name": "The Lord of the Rings: The Return of the King"
+      },
+      {
+        "rank": 4,
+        "name": "West Side Story"
+      },
+      {
+        "rank": 5,
+        "name": "Gigi"
+      },
+      {
+        "rank": 6,
+        "name": "The Last Emperor"
+      },
+      {
+        "rank": 7,
+        "name": "The English Patient"
+      },
+      {
+        "rank": 8,
+        "name": "Forrest Gump"
+      },
+      {
+        "rank": 9,
+        "name": "Amadeus"
+      },
+      {
+        "rank": 10,
+        "name": "Slumdog Millionaire"
+      },
+      {
+        "rank": 11,
+        "name": "Gone with the Wind"
+      },
+      {
+        "rank": 12,
+        "name": "On the Waterfront"
+      },
+      {
+        "rank": 13,
+        "name": "My Fair Lady"
+      },
+      {
+        "rank": 14,
+        "name": "Lawrence of Arabia"
+      },
+      {
+        "rank": 15,
+        "name": "Schindler’s List"
+      }
+    ]
+  },
+  "disney": {
+    "title": "Najpoznatiji Disney animirani filmovi",
+    "description": "Urednički izbor poznatih animiranih klasika i modernih hitova.",
+    "source": "Popularnost i kulturni utjecaj; nije službeni rang.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "The Lion King"
+      },
+      {
+        "rank": 2,
+        "name": "Frozen"
+      },
+      {
+        "rank": 3,
+        "name": "Toy Story"
+      },
+      {
+        "rank": 4,
+        "name": "Finding Nemo"
+      },
+      {
+        "rank": 5,
+        "name": "Aladdin"
+      },
+      {
+        "rank": 6,
+        "name": "Beauty and the Beast"
+      },
+      {
+        "rank": 7,
+        "name": "Moana"
+      },
+      {
+        "rank": 8,
+        "name": "Zootopia"
+      },
+      {
+        "rank": 9,
+        "name": "Inside Out"
+      },
+      {
+        "rank": 10,
+        "name": "Coco"
+      },
+      {
+        "rank": 11,
+        "name": "Mulan"
+      },
+      {
+        "rank": 12,
+        "name": "The Little Mermaid"
+      },
+      {
+        "rank": 13,
+        "name": "Tangled"
+      },
+      {
+        "rank": 14,
+        "name": "Encanto"
+      },
+      {
+        "rank": 15,
+        "name": "Lilo & Stitch"
+      }
+    ]
+  },
+  "anime": {
+    "title": "Anime serijali sa najvišim ocjenama na IMDb-u",
+    "description": "IMDb lista, svi anime serijali moraju imati preko 5k glasova da bi ušli u poredak.",
+    "source": "IMDb.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Fullmetal Alchemist: Brotherhood"
+      },
+      {
+        "rank": 2,
+        "name": "Attack on Titan"
+      },
+      {
+        "rank": 3,
+        "name": "One Piece"
+      },
+      {
+        "rank": 4,
+        "name": "Hunter x Hunter"
+      },
+      {
+        "rank": 5,
+        "name": "Death Note"
+      },
+      {
+        "rank": 6,
+        "name": "Cowboy Bebop"
+      },
+      {
+        "rank": 7,
+        "name": "Monster"
+      },
+      {
+        "rank": 8,
+        "name": "Berserk"
+      },
+      {
+        "rank": 9,
+        "name": "Steins;Gate"
+      },
+      {
+        "rank": 10,
+        "name": "Dragon Ball Z"
+      },
+      {
+        "rank": 11,
+        "name": "Naruto: Shippuden"
+      },
+      {
+        "rank": 12,
+        "name": "Code Geass"
+      },
+      {
+        "rank": 13,
+        "name": "One-Punch Man"
+      },
+      {
+        "rank": 14,
+        "name": "Samurai X: Trust & Betrayal"
+      },
+      {
+        "rank": 15,
+        "name": "Neon Genesis Evangelion"
+      }
+    ]
+  },
+  "superheroes": {
+    "title": "Najpoznatiji superheroji iz stripova i filmova",
+    "description": "Urednički izbor popularnih superheroja iz različitih izdavačkih kuća.",
+    "source": "Prepoznatljivost u popularnoj kulturi.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Spider-Man"
+      },
+      {
+        "rank": 2,
+        "name": "Batman"
+      },
+      {
+        "rank": 3,
+        "name": "Superman"
+      },
+      {
+        "rank": 4,
+        "name": "Iron Man"
+      },
+      {
+        "rank": 5,
+        "name": "Wonder Woman"
+      },
+      {
+        "rank": 6,
+        "name": "Captain America"
+      },
+      {
+        "rank": 7,
+        "name": "Hulk"
+      },
+      {
+        "rank": 8,
+        "name": "Thor"
+      },
+      {
+        "rank": 9,
+        "name": "Black Panther"
+      },
+      {
+        "rank": 10,
+        "name": "Wolverine"
+      },
+      {
+        "rank": 11,
+        "name": "The Flash"
+      },
+      {
+        "rank": 12,
+        "name": "Doctor Strange"
+      },
+      {
+        "rank": 13,
+        "name": "Deadpool"
+      },
+      {
+        "rank": 14,
+        "name": "Aquaman"
+      },
+      {
+        "rank": 15,
+        "name": "Green Lantern"
+      }
+    ]
+  },
+  "boardgames": {
+    "title": "Najpoznatije društvene igre",
+    "description": "Urednički izbor klasičnih i modernih društvenih igara.",
+    "source": "Prepoznatljivost i dugotrajna popularnost.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Monopoly"
+      },
+      {
+        "rank": 2,
+        "name": "Chess"
+      },
+      {
+        "rank": 3,
+        "name": "Scrabble"
+      },
+      {
+        "rank": 4,
+        "name": "Clue / Cluedo"
+      },
+      {
+        "rank": 5,
+        "name": "Risk"
+      },
+      {
+        "rank": 6,
+        "name": "Catan"
+      },
+      {
+        "rank": 7,
+        "name": "Ticket to Ride"
+      },
+      {
+        "rank": 8,
+        "name": "Carcassonne"
+      },
+      {
+        "rank": 9,
+        "name": "Codenames"
+      },
+      {
+        "rank": 10,
+        "name": "Uno"
+      },
+      {
+        "rank": 11,
+        "name": "Pandemic"
+      },
+      {
+        "rank": 12,
+        "name": "Dungeons & Dragons"
+      },
+      {
+        "rank": 13,
+        "name": "Jenga"
+      },
+      {
+        "rank": 14,
+        "name": "The Game of Life"
+      },
+      {
+        "rank": 15,
+        "name": "Battleship"
+      }
+    ]
+  },
+  "websites": {
+    "title": "Najposjećenije i najpoznatije internetske platforme",
+    "description": "Promjenjiva lista velikih globalnih platformi; promet zavisi od mjeseca i metodologije.",
+    "source": "Urednički izbor velikih digitalnih servisa.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Google"
+      },
+      {
+        "rank": 2,
+        "name": "YouTube"
+      },
+      {
+        "rank": 3,
+        "name": "Facebook"
+      },
+      {
+        "rank": 4,
+        "name": "Instagram"
+      },
+      {
+        "rank": 5,
+        "name": "Wikipedia"
+      },
+      {
+        "rank": 6,
+        "name": "Reddit"
+      },
+      {
+        "rank": 7,
+        "name": "Amazon"
+      },
+      {
+        "rank": 8,
+        "name": "TikTok"
+      },
+      {
+        "rank": 9,
+        "name": "X"
+      },
+      {
+        "rank": 10,
+        "name": "Yahoo"
+      },
+      {
+        "rank": 11,
+        "name": "WhatsApp"
+      },
+      {
+        "rank": 12,
+        "name": "Netflix"
+      },
+      {
+        "rank": 13,
+        "name": "Microsoft Bing"
+      },
+      {
+        "rank": 14,
+        "name": "Pinterest"
+      },
+      {
+        "rank": 15,
+        "name": "LinkedIn"
+      }
+    ]
+  },
+  "social_apps": {
+    "title": "Najpoznatije društvene mreže i aplikacije",
+    "description": "Lista globalno poznatih servisa, ne strogi rang aktivnih korisnika.",
+    "source": "Urednički izbor; popularnost se mijenja.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Instagram"
+      },
+      {
+        "rank": 2,
+        "name": "TikTok"
+      },
+      {
+        "rank": 3,
+        "name": "YouTube"
+      },
+      {
+        "rank": 4,
+        "name": "Facebook"
+      },
+      {
+        "rank": 5,
+        "name": "WhatsApp"
+      },
+      {
+        "rank": 6,
+        "name": "Snapchat"
+      },
+      {
+        "rank": 7,
+        "name": "WeChat"
+      },
+      {
+        "rank": 8,
+        "name": "Telegram"
+      },
+      {
+        "rank": 9,
+        "name": "Discord"
+      },
+      {
+        "rank": 10,
+        "name": "Reddit"
+      },
+      {
+        "rank": 11,
+        "name": "Pinterest"
+      },
+      {
+        "rank": 12,
+        "name": "X"
+      },
+      {
+        "rank": 13,
+        "name": "LinkedIn"
+      },
+      {
+        "rank": 14,
+        "name": "Twitch"
+      },
+      {
+        "rank": 15,
+        "name": "Threads"
+      }
+    ]
+  },
+  "programming": {
+    "title": "Popularni programski jezici",
+    "description": "Urednički izbor često korištenih jezika; popularnost zavisi od ankete i mjere.",
+    "source": "Široka zastupljenost u razvoju softvera.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Python"
+      },
+      {
+        "rank": 2,
+        "name": "JavaScript"
+      },
+      {
+        "rank": 3,
+        "name": "Java"
+      },
+      {
+        "rank": 4,
+        "name": "C#"
+      },
+      {
+        "rank": 5,
+        "name": "C++"
+      },
+      {
+        "rank": 6,
+        "name": "TypeScript"
+      },
+      {
+        "rank": 7,
+        "name": "C"
+      },
+      {
+        "rank": 8,
+        "name": "PHP"
+      },
+      {
+        "rank": 9,
+        "name": "Go"
+      },
+      {
+        "rank": 10,
+        "name": "Rust"
+      },
+      {
+        "rank": 11,
+        "name": "Swift"
+      },
+      {
+        "rank": 12,
+        "name": "Kotlin"
+      },
+      {
+        "rank": 13,
+        "name": "SQL"
+      },
+      {
+        "rank": 14,
+        "name": "Ruby"
+      },
+      {
+        "rank": 15,
+        "name": "R"
+      }
+    ]
+  },
+  "inventions": {
+    "title": "Izumi koji su promijenili svijet",
+    "description": "Hronološki i kulturni značaj su predmet rasprave; lista je urednička.",
+    "source": "Historijski pregled važnih izuma.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Točak"
+      },
+      {
+        "rank": 2,
+        "name": "Štamparska presa"
+      },
+      {
+        "rank": 3,
+        "name": "Električna sijalica"
+      },
+      {
+        "rank": 4,
+        "name": "Telefon"
+      },
+      {
+        "rank": 5,
+        "name": "Avion"
+      },
+      {
+        "rank": 6,
+        "name": "Internet"
+      },
+      {
+        "rank": 7,
+        "name": "Tranzistor"
+      },
+      {
+        "rank": 8,
+        "name": "Vakcinacija"
+      },
+      {
+        "rank": 9,
+        "name": "Parna mašina"
+      },
+      {
+        "rank": 10,
+        "name": "Kompas"
+      },
+      {
+        "rank": 11,
+        "name": "Papir"
+      },
+      {
+        "rank": 12,
+        "name": "Fotografija"
+      },
+      {
+        "rank": 13,
+        "name": "Radio"
+      },
+      {
+        "rank": 14,
+        "name": "Hladnjak"
+      },
+      {
+        "rank": 15,
+        "name": "GPS"
+      }
+    ]
+  },
+  "scientists": {
+    "title": "Najpoznatiji naučnici u historiji",
+    "description": "Urednički izbor naučnika iz različitih disciplina i perioda.",
+    "source": "Historijski utjecaj na nauku.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Albert Einstein"
+      },
+      {
+        "rank": 2,
+        "name": "Isaac Newton"
+      },
+      {
+        "rank": 3,
+        "name": "Marie Curie"
+      },
+      {
+        "rank": 4,
+        "name": "Charles Darwin"
+      },
+      {
+        "rank": 5,
+        "name": "Nikola Tesla"
+      },
+      {
+        "rank": 6,
+        "name": "Galileo Galilei"
+      },
+      {
+        "rank": 7,
+        "name": "Ada Lovelace"
+      },
+      {
+        "rank": 8,
+        "name": "Stephen Hawking"
+      },
+      {
+        "rank": 9,
+        "name": "Louis Pasteur"
+      },
+      {
+        "rank": 10,
+        "name": "Alan Turing"
+      },
+      {
+        "rank": 11,
+        "name": "Dmitri Mendeleev"
+      },
+      {
+        "rank": 12,
+        "name": "Rosalind Franklin"
+      },
+      {
+        "rank": 13,
+        "name": "Katherine Johnson"
+      },
+      {
+        "rank": 14,
+        "name": "Gregor Mendel"
+      },
+      {
+        "rank": 15,
+        "name": "Arhimed"
+      }
+    ]
+  },
+  "inventions_space": {
+    "title": "Poznate svemirske misije i programi",
+    "description": "Urednički izbor historijski značajnih misija i programa.",
+    "source": "Historija istraživanja svemira.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Apollo 11"
+      },
+      {
+        "rank": 2,
+        "name": "Voyager 1"
+      },
+      {
+        "rank": 3,
+        "name": "Voyager 2"
+      },
+      {
+        "rank": 4,
+        "name": "Sputnik 1"
+      },
+      {
+        "rank": 5,
+        "name": "Hubble Space Telescope"
+      },
+      {
+        "rank": 6,
+        "name": "James Webb Space Telescope"
+      },
+      {
+        "rank": 7,
+        "name": "Mars Pathfinder"
+      },
+      {
+        "rank": 8,
+        "name": "Curiosity rover"
+      },
+      {
+        "rank": 9,
+        "name": "Perseverance rover"
+      },
+      {
+        "rank": 10,
+        "name": "Cassini–Huygens"
+      },
+      {
+        "rank": 11,
+        "name": "New Horizons"
+      },
+      {
+        "rank": 12,
+        "name": "Vostok 1"
+      },
+      {
+        "rank": 13,
+        "name": "Apollo 13"
+      },
+      {
+        "rank": 14,
+        "name": "International Space Station"
+      },
+      {
+        "rank": 15,
+        "name": "Artemis I"
+      }
+    ]
+  },
+  "body": {
+    "title": "Veliki organi i organi-sistemi ljudskog tijela",
+    "description": "Mješavina velikih organa i važnih unutrašnjih organa. Samo koža je najveći organ po površini; ostali nisu rangirani po istoj mjeri.",
+    "source": "Osnovne anatomske reference; lista je edukativni izbor, ne strogi rang veličine.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Koža"
+      },
+      {
+        "rank": 2,
+        "name": "Jetra"
+      },
+      {
+        "rank": 3,
+        "name": "Mozak"
+      },
+      {
+        "rank": 4,
+        "name": "Pluća"
+      },
+      {
+        "rank": 5,
+        "name": "Srce"
+      },
+      {
+        "rank": 6,
+        "name": "Bubrezi"
+      },
+      {
+        "rank": 7,
+        "name": "Tanko crijevo"
+      },
+      {
+        "rank": 8,
+        "name": "Debelo crijevo"
+      },
+      {
+        "rank": 9,
+        "name": "Gušterača"
+      },
+      {
+        "rank": 10,
+        "name": "Slezena"
+      },
+      {
+        "rank": 11,
+        "name": "Štitna žlijezda"
+      },
+      {
+        "rank": 12,
+        "name": "Mokraćni mjehur"
+      },
+      {
+        "rank": 13,
+        "name": "Želudac"
+      },
+      {
+        "rank": 14,
+        "name": "Timus"
+      },
+      {
+        "rank": 15,
+        "name": "Žučna kesica"
+      }
+    ]
+  },
+  "vitamins": {
+    "title": "Vitamini važni za ljudsko zdravlje",
+    "description": "Lista 13 esencijalnih vitamina i dva važna oblika/člana vitaminskih grupa. B-kompleks nije zaseban vitamin, a beta-karoten je provitamin A.",
+    "source": "Osnovne nutricionističke reference.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Vitamin A"
+      },
+      {
+        "rank": 2,
+        "name": "Vitamin B1 (tiamin)"
+      },
+      {
+        "rank": 3,
+        "name": "Vitamin B2 (riboflavin)"
+      },
+      {
+        "rank": 4,
+        "name": "Vitamin B3 (niacin)"
+      },
+      {
+        "rank": 5,
+        "name": "Vitamin B5 (pantotenska kiselina)"
+      },
+      {
+        "rank": 6,
+        "name": "Vitamin B6"
+      },
+      {
+        "rank": 7,
+        "name": "Vitamin B7 (biotin)"
+      },
+      {
+        "rank": 8,
+        "name": "Vitamin B9 (folat)"
+      },
+      {
+        "rank": 9,
+        "name": "Vitamin B12"
+      },
+      {
+        "rank": 10,
+        "name": "Vitamin C"
+      },
+      {
+        "rank": 11,
+        "name": "Vitamin D"
+      },
+      {
+        "rank": 12,
+        "name": "Vitamin E"
+      },
+      {
+        "rank": 13,
+        "name": "Vitamin K"
+      },
+      {
+        "rank": 14,
+        "name": "Vitamin K2"
+      },
+      {
+        "rank": 15,
+        "name": "Vitamin D3"
+      }
+    ]
+  },
+  "weather": {
+    "title": "Ekstremni vremenski i prirodni fenomeni",
+    "description": "Urednički izbor poznatih pojava; intenzitet i rekordi zavise od mjerenja.",
+    "source": "Meteorološke i geografske reference.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Uragan"
+      },
+      {
+        "rank": 2,
+        "name": "Tornado"
+      },
+      {
+        "rank": 3,
+        "name": "Munja"
+      },
+      {
+        "rank": 4,
+        "name": "Mećava"
+      },
+      {
+        "rank": 5,
+        "name": "Pješčana oluja"
+      },
+      {
+        "rank": 6,
+        "name": "Monsun"
+      },
+      {
+        "rank": 7,
+        "name": "Suša"
+      },
+      {
+        "rank": 8,
+        "name": "Poplava"
+      },
+      {
+        "rank": 9,
+        "name": "Toplotni talas"
+      },
+      {
+        "rank": 10,
+        "name": "Lavina"
+      },
+      {
+        "rank": 11,
+        "name": "Tuča"
+      },
+      {
+        "rank": 12,
+        "name": "Ledena kiša"
+      },
+      {
+        "rank": 13,
+        "name": "Polarna svjetlost"
+      },
+      {
+        "rank": 14,
+        "name": "Vulkanska erupcija"
+      },
+      {
+        "rank": 15,
+        "name": "Tsunami"
+      }
+    ]
+  },
+  "countries_travel": {
+    "title": "Najposjećenije turističke zemlje",
+    "description": "Poredak se mijenja po godini i prema tome broje li se dolasci ili noćenja.",
+    "source": "Međunarodne turističke statistike; okvirni izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Francuska"
+      },
+      {
+        "rank": 2,
+        "name": "Španija"
+      },
+      {
+        "rank": 3,
+        "name": "Sjedinjene Američke Države"
+      },
+      {
+        "rank": 4,
+        "name": "Turska"
+      },
+      {
+        "rank": 5,
+        "name": "Italija"
+      },
+      {
+        "rank": 6,
+        "name": "Meksiko"
+      },
+      {
+        "rank": 7,
+        "name": "Ujedinjeno Kraljevstvo"
+      },
+      {
+        "rank": 8,
+        "name": "Njemačka"
+      },
+      {
+        "rank": 9,
+        "name": "Grčka"
+      },
+      {
+        "rank": 10,
+        "name": "Austrija"
+      },
+      {
+        "rank": 11,
+        "name": "Tajland"
+      },
+      {
+        "rank": 12,
+        "name": "Japan"
+      },
+      {
+        "rank": 13,
+        "name": "Ujedinjeni Arapski Emirati"
+      },
+      {
+        "rank": 14,
+        "name": "Portugal"
+      },
+      {
+        "rank": 15,
+        "name": "Hrvatska"
+      }
+    ]
+  },
+  "flags": {
+    "title": "Države s prepoznatljivim zastavama",
+    "description": "Urednički izbor zastava koje se često prepoznaju zbog boja ili simbola.",
+    "source": "Kvizna kategorija; nije mjerljiva službena rang-lista.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Japan"
+      },
+      {
+        "rank": 2,
+        "name": "Kanada"
+      },
+      {
+        "rank": 3,
+        "name": "Brazil"
+      },
+      {
+        "rank": 4,
+        "name": "Sjedinjene Američke Države"
+      },
+      {
+        "rank": 5,
+        "name": "Ujedinjeno Kraljevstvo"
+      },
+      {
+        "rank": 6,
+        "name": "Švicarska"
+      },
+      {
+        "rank": 7,
+        "name": "Turska"
+      },
+      {
+        "rank": 8,
+        "name": "Južna Koreja"
+      },
+      {
+        "rank": 9,
+        "name": "Južnoafrička Republika"
+      },
+      {
+        "rank": 10,
+        "name": "Nepal"
+      },
+      {
+        "rank": 11,
+        "name": "Butan"
+      },
+      {
+        "rank": 12,
+        "name": "Jamajka"
+      },
+      {
+        "rank": 13,
+        "name": "Grčka"
+      },
+      {
+        "rank": 14,
+        "name": "Bosna i Hercegovina"
+      },
+      {
+        "rank": 15,
+        "name": "Albanija"
+      }
+    ]
+  },
+  "cars": {
+    "title": "Najpoznatiji proizvođači automobila",
+    "description": "Urednički izbor poznatih globalnih automobilskih marki.",
+    "source": "Prepoznatljivost brendova; nije rang prodaje.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Toyota"
+      },
+      {
+        "rank": 2,
+        "name": "Volkswagen"
+      },
+      {
+        "rank": 3,
+        "name": "Mercedes-Benz"
+      },
+      {
+        "rank": 4,
+        "name": "BMW"
+      },
+      {
+        "rank": 5,
+        "name": "Ford"
+      },
+      {
+        "rank": 6,
+        "name": "Honda"
+      },
+      {
+        "rank": 7,
+        "name": "Hyundai"
+      },
+      {
+        "rank": 8,
+        "name": "Tesla"
+      },
+      {
+        "rank": 9,
+        "name": "Ferrari"
+      },
+      {
+        "rank": 10,
+        "name": "Porsche"
+      },
+      {
+        "rank": 11,
+        "name": "Lamborghini"
+      },
+      {
+        "rank": 12,
+        "name": "Audi"
+      },
+      {
+        "rank": 13,
+        "name": "Volvo"
+      },
+      {
+        "rank": 14,
+        "name": "Nissan"
+      },
+      {
+        "rank": 15,
+        "name": "Škoda"
+      }
+    ]
+  },
+  "fast_food": {
+    "title": "Poznati lanci brze hrane",
+    "description": "Urednički izbor međunarodno poznatih lanaca.",
+    "source": "Prepoznatljivost brendova, ne strogi finansijski rang.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "McDonald’s"
+      },
+      {
+        "rank": 2,
+        "name": "KFC"
+      },
+      {
+        "rank": 3,
+        "name": "Burger King"
+      },
+      {
+        "rank": 4,
+        "name": "Subway"
+      },
+      {
+        "rank": 5,
+        "name": "Starbucks"
+      },
+      {
+        "rank": 6,
+        "name": "Pizza Hut"
+      },
+      {
+        "rank": 7,
+        "name": "Domino’s"
+      },
+      {
+        "rank": 8,
+        "name": "Taco Bell"
+      },
+      {
+        "rank": 9,
+        "name": "Wendy’s"
+      },
+      {
+        "rank": 10,
+        "name": "Dunkin’"
+      },
+      {
+        "rank": 11,
+        "name": "Popeyes"
+      },
+      {
+        "rank": 12,
+        "name": "Chipotle"
+      },
+      {
+        "rank": 13,
+        "name": "Five Guys"
+      },
+      {
+        "rank": 14,
+        "name": "Papa Johns"
+      },
+      {
+        "rank": 15,
+        "name": "Jollibee"
+      }
+    ]
+  },
+  "desserts": {
+    "title": "Popularni deserti iz različitih zemalja",
+    "description": "Urednički izbor poznatih deserata širom svijeta.",
+    "source": "Kulinarska raznolikost; nije službeni rang.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Tiramisu"
+      },
+      {
+        "rank": 2,
+        "name": "Baklava"
+      },
+      {
+        "rank": 3,
+        "name": "Cheesecake"
+      },
+      {
+        "rank": 4,
+        "name": "Crème brûlée"
+      },
+      {
+        "rank": 5,
+        "name": "Mochi"
+      },
+      {
+        "rank": 6,
+        "name": "Gelato"
+      },
+      {
+        "rank": 7,
+        "name": "Churros"
+      },
+      {
+        "rank": 8,
+        "name": "Brownie"
+      },
+      {
+        "rank": 9,
+        "name": "Palačinke"
+      },
+      {
+        "rank": 10,
+        "name": "Pavlova"
+      },
+      {
+        "rank": 11,
+        "name": "Cannoli"
+      },
+      {
+        "rank": 12,
+        "name": "Dango"
+      },
+      {
+        "rank": 13,
+        "name": "Gulab jamun"
+      },
+      {
+        "rank": 14,
+        "name": "Krofne"
+      },
+      {
+        "rank": 15,
+        "name": "Štrudla od jabuka"
+      }
+    ]
+  },
+  "mythology": {
+    "title": "Poznata bića iz mitologija svijeta",
+    "description": "Urednički izbor mitoloških bića iz više tradicija.",
+    "source": "Mitološka i folklorna tradicija.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Zmaj"
+      },
+      {
+        "rank": 2,
+        "name": "Feniks"
+      },
+      {
+        "rank": 3,
+        "name": "Grifon"
+      },
+      {
+        "rank": 4,
+        "name": "Jednorog"
+      },
+      {
+        "rank": 5,
+        "name": "Minotaur"
+      },
+      {
+        "rank": 6,
+        "name": "Kentaur"
+      },
+      {
+        "rank": 7,
+        "name": "Hidra"
+      },
+      {
+        "rank": 8,
+        "name": "Pegaz"
+      },
+      {
+        "rank": 9,
+        "name": "Kraken"
+      },
+      {
+        "rank": 10,
+        "name": "Sfinga"
+      },
+      {
+        "rank": 11,
+        "name": "Kiklop"
+      },
+      {
+        "rank": 12,
+        "name": "Vukodlak"
+      },
+      {
+        "rank": 13,
+        "name": "Sirena"
+      },
+      {
+        "rank": 14,
+        "name": "Bazilisk"
+      },
+      {
+        "rank": 15,
+        "name": "Cerber"
+      }
+    ]
+  },
+  "pokemon": {
+    "title": "Najpoznatiji Pokémoni",
+    "description": "Urednički izbor prepoznatljivih likova iz Pokémon franšize.",
+    "source": "Prepoznatljivost i popularnost; nije službeni rang.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Pikachu"
+      },
+      {
+        "rank": 2,
+        "name": "Charizard"
+      },
+      {
+        "rank": 3,
+        "name": "Eevee"
+      },
+      {
+        "rank": 4,
+        "name": "Mewtwo"
+      },
+      {
+        "rank": 5,
+        "name": "Bulbasaur"
+      },
+      {
+        "rank": 6,
+        "name": "Squirtle"
+      },
+      {
+        "rank": 7,
+        "name": "Jigglypuff"
+      },
+      {
+        "rank": 8,
+        "name": "Gengar"
+      },
+      {
+        "rank": 9,
+        "name": "Lucario"
+      },
+      {
+        "rank": 10,
+        "name": "Snorlax"
+      },
+      {
+        "rank": 11,
+        "name": "Psyduck"
+      },
+      {
+        "rank": 12,
+        "name": "Gyarados"
+      },
+      {
+        "rank": 13,
+        "name": "Mew"
+      },
+      {
+        "rank": 14,
+        "name": "Greninja"
+      },
+      {
+        "rank": 15,
+        "name": "Arcanine"
+      }
+    ]
+  },
+  "harry_potter": {
+    "title": "Poznati likovi iz Harry Pottera",
+    "description": "Urednički izbor važnih i popularnih likova iz serijala.",
+    "source": "Kulturna prepoznatljivost; nije službeni rang.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Harry Potter"
+      },
+      {
+        "rank": 2,
+        "name": "Hermione Granger"
+      },
+      {
+        "rank": 3,
+        "name": "Ron Weasley"
+      },
+      {
+        "rank": 4,
+        "name": "Albus Dumbledore"
+      },
+      {
+        "rank": 5,
+        "name": "Severus Snape"
+      },
+      {
+        "rank": 6,
+        "name": "Lord Voldemort"
+      },
+      {
+        "rank": 7,
+        "name": "Rubeus Hagrid"
+      },
+      {
+        "rank": 8,
+        "name": "Draco Malfoy"
+      },
+      {
+        "rank": 9,
+        "name": "Luna Lovegood"
+      },
+      {
+        "rank": 10,
+        "name": "Sirius Black"
+      },
+      {
+        "rank": 11,
+        "name": "Minerva McGonagall"
+      },
+      {
+        "rank": 12,
+        "name": "Dobby"
+      },
+      {
+        "rank": 13,
+        "name": "Neville Longbottom"
+      },
+      {
+        "rank": 14,
+        "name": "Bellatrix Lestrange"
+      },
+      {
+        "rank": 15,
+        "name": "Ginny Weasley"
+      }
+    ]
+  },
+  "lotr": {
+    "title": "Likovi iz Gospodara prstenova",
+    "description": "Urednički izbor poznatih likova iz Tolkienovog svijeta.",
+    "source": "Kulturna prepoznatljivost; nije službeni rang.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Frodo Baggins"
+      },
+      {
+        "rank": 2,
+        "name": "Gandalf"
+      },
+      {
+        "rank": 3,
+        "name": "Aragorn"
+      },
+      {
+        "rank": 4,
+        "name": "Legolas"
+      },
+      {
+        "rank": 5,
+        "name": "Gimli"
+      },
+      {
+        "rank": 6,
+        "name": "Samwise Gamgee"
+      },
+      {
+        "rank": 7,
+        "name": "Gollum"
+      },
+      {
+        "rank": 8,
+        "name": "Boromir"
+      },
+      {
+        "rank": 9,
+        "name": "Galadriel"
+      },
+      {
+        "rank": 10,
+        "name": "Saruman"
+      },
+      {
+        "rank": 11,
+        "name": "Sauron"
+      },
+      {
+        "rank": 12,
+        "name": "Merry Brandybuck"
+      },
+      {
+        "rank": 13,
+        "name": "Pippin Took"
+      },
+      {
+        "rank": 14,
+        "name": "Éowyn"
+      },
+      {
+        "rank": 15,
+        "name": "Treebeard"
+      }
+    ]
+  },
+  "world_food": {
+    "title": "Regionalna jela i specijaliteti svijeta",
+    "description": "Poznata regionalna jela iz različitih kuhinja. Izbor je urednički, ne rang po objektivnoj popularnosti.",
+    "source": "Kulinarske reference; urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Pizza"
+      },
+      {
+        "rank": 2,
+        "name": "Sushi"
+      },
+      {
+        "rank": 3,
+        "name": "Tacos"
+      },
+      {
+        "rank": 4,
+        "name": "Burek"
+      },
+      {
+        "rank": 5,
+        "name": "Ćevapi"
+      },
+      {
+        "rank": 6,
+        "name": "Paella"
+      },
+      {
+        "rank": 7,
+        "name": "Ramen"
+      },
+      {
+        "rank": 8,
+        "name": "Pho"
+      },
+      {
+        "rank": 9,
+        "name": "Curry"
+      },
+      {
+        "rank": 10,
+        "name": "Hamburger"
+      },
+      {
+        "rank": 11,
+        "name": "Lasagna"
+      },
+      {
+        "rank": 12,
+        "name": "Kimchi"
+      },
+      {
+        "rank": 13,
+        "name": "Falafel"
+      },
+      {
+        "rank": 14,
+        "name": "Fish and chips"
+      },
+      {
+        "rank": 15,
+        "name": "Pierogi"
+      }
+    ]
+  },
+  "football_stadiums": {
+    "title": "Poznati fudbalski stadioni svijeta",
+    "description": "Urednički izbor stadiona poznatih po kapacitetu ili historiji.",
+    "source": "Poznatost i sportska historija; kapaciteti se mijenjaju.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Camp Nou"
+      },
+      {
+        "rank": 2,
+        "name": "Wembley Stadium"
+      },
+      {
+        "rank": 3,
+        "name": "Santiago Bernabéu"
+      },
+      {
+        "rank": 4,
+        "name": "Old Trafford"
+      },
+      {
+        "rank": 5,
+        "name": "Maracanã"
+      },
+      {
+        "rank": 6,
+        "name": "San Siro"
+      },
+      {
+        "rank": 7,
+        "name": "Anfield"
+      },
+      {
+        "rank": 8,
+        "name": "Allianz Arena"
+      },
+      {
+        "rank": 9,
+        "name": "Signal Iduna Park"
+      },
+      {
+        "rank": 10,
+        "name": "Azteca Stadium"
+      },
+      {
+        "rank": 11,
+        "name": "Stade de France"
+      },
+      {
+        "rank": 12,
+        "name": "La Bombonera"
+      },
+      {
+        "rank": 13,
+        "name": "Estadio Monumental"
+      },
+      {
+        "rank": 14,
+        "name": "Atatürk Olympic Stadium"
+      },
+      {
+        "rank": 15,
+        "name": "Celtic Park"
+      }
+    ]
+  },
+  "board_games_characters": {
+    "title": "Poznati likovi iz videoigara",
+    "description": "Urednički izbor ikoničnih likova iz različitih gaming franšiza.",
+    "source": "Kulturna prepoznatljivost; nije službeni rang.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Mario"
+      },
+      {
+        "rank": 2,
+        "name": "Sonic"
+      },
+      {
+        "rank": 3,
+        "name": "Lara Croft"
+      },
+      {
+        "rank": 4,
+        "name": "Link"
+      },
+      {
+        "rank": 5,
+        "name": "Pikachu"
+      },
+      {
+        "rank": 6,
+        "name": "Kratos"
+      },
+      {
+        "rank": 7,
+        "name": "Master Chief"
+      },
+      {
+        "rank": 8,
+        "name": "Pac-Man"
+      },
+      {
+        "rank": 9,
+        "name": "Kirby"
+      },
+      {
+        "rank": 10,
+        "name": "Donkey Kong"
+      },
+      {
+        "rank": 11,
+        "name": "Steve (Minecraft)"
+      },
+      {
+        "rank": 12,
+        "name": "Solid Snake"
+      },
+      {
+        "rank": 13,
+        "name": "Cloud Strife"
+      },
+      {
+        "rank": 14,
+        "name": "Geralt of Rivia"
+      },
+      {
+        "rank": 15,
+        "name": "Liu Kang"
+      }
+    ]
+  },
+  "olympics": {
+    "title": "Države s najviše ukupnih olimpijskih medalja",
+    "description": "Historijski zbir ljetnih i zimskih igara zavisi od načina računanja država nasljednica.",
+    "source": "Olimpijske historijske tabele; približan poredak.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Sjedinjene Američke Države"
+      },
+      {
+        "rank": 2,
+        "name": "Sovjetski Savez"
+      },
+      {
+        "rank": 3,
+        "name": "Velika Britanija"
+      },
+      {
+        "rank": 4,
+        "name": "Njemačka"
+      },
+      {
+        "rank": 5,
+        "name": "Francuska"
+      },
+      {
+        "rank": 6,
+        "name": "Italija"
+      },
+      {
+        "rank": 7,
+        "name": "Kina"
+      },
+      {
+        "rank": 8,
+        "name": "Švedska"
+      },
+      {
+        "rank": 9,
+        "name": "Australija"
+      },
+      {
+        "rank": 10,
+        "name": "Norveška"
+      },
+      {
+        "rank": 11,
+        "name": "Japan"
+      },
+      {
+        "rank": 12,
+        "name": "Mađarska"
+      },
+      {
+        "rank": 13,
+        "name": "Rusija"
+      },
+      {
+        "rank": 14,
+        "name": "Nizozemska"
+      },
+      {
+        "rank": 15,
+        "name": "Kanada"
+      }
+    ]
+  },
+  "tv_series": {
+    "title": "Popularne TV serije svih vremena",
+    "description": "Urednički izbor međunarodno poznatih serija; redoslijed nije službena gledanost.",
+    "source": "Javne TV reference i urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Breaking Bad"
+      },
+      {
+        "rank": 2,
+        "name": "Game of Thrones"
+      },
+      {
+        "rank": 3,
+        "name": "The Sopranos"
+      },
+      {
+        "rank": 4,
+        "name": "The Wire"
+      },
+      {
+        "rank": 5,
+        "name": "Friends"
+      },
+      {
+        "rank": 6,
+        "name": "The Office (US)"
+      },
+      {
+        "rank": 7,
+        "name": "Stranger Things"
+      },
+      {
+        "rank": 8,
+        "name": "The Simpsons"
+      },
+      {
+        "rank": 9,
+        "name": "Sherlock"
+      },
+      {
+        "rank": 10,
+        "name": "The Last of Us"
+      },
+      {
+        "rank": 11,
+        "name": "Chernobyl"
+      },
+      {
+        "rank": 12,
+        "name": "The Walking Dead"
+      },
+      {
+        "rank": 13,
+        "name": "Lost"
+      },
+      {
+        "rank": 14,
+        "name": "Better Call Saul"
+      },
+      {
+        "rank": 15,
+        "name": "Dark"
+      }
+    ]
+  },
+  "movie_villains": {
+    "title": "Poznati negativci iz filmova",
+    "description": "Urednički izbor prepoznatljivih filmskih antagonista, bez objektivnog poretka popularnosti.",
+    "source": "Filmske reference; urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Darth Vader"
+      },
+      {
+        "rank": 2,
+        "name": "Joker"
+      },
+      {
+        "rank": 3,
+        "name": "Thanos"
+      },
+      {
+        "rank": 4,
+        "name": "Lord Voldemort"
+      },
+      {
+        "rank": 5,
+        "name": "Hannibal Lecter"
+      },
+      {
+        "rank": 6,
+        "name": "Sauron"
+      },
+      {
+        "rank": 7,
+        "name": "Freddy Krueger"
+      },
+      {
+        "rank": 8,
+        "name": "Michael Myers"
+      },
+      {
+        "rank": 9,
+        "name": "The Terminator (T-800)"
+      },
+      {
+        "rank": 10,
+        "name": "Agent Smith"
+      },
+      {
+        "rank": 11,
+        "name": "Hans Gruber"
+      },
+      {
+        "rank": 12,
+        "name": "Nurse Ratched"
+      },
+      {
+        "rank": 13,
+        "name": "Scar"
+      },
+      {
+        "rank": 14,
+        "name": "Green Goblin"
+      },
+      {
+        "rank": 15,
+        "name": "Cruella de Vil"
+      }
+    ]
+  },
+  "tcg_games": {
+    "title": "Poznate kolekcionarske kartaške igre",
+    "description": "Odabrane fizičke i digitalne kolekcionarske kartaške igre. Redoslijed nije poredak prodaje ili aktivnih igrača.",
+    "source": "Službene stranice izdavača i urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Magic: The Gathering"
+      },
+      {
+        "rank": 2,
+        "name": "Pokémon Trading Card Game"
+      },
+      {
+        "rank": 3,
+        "name": "Yu-Gi-Oh! Trading Card Game"
+      },
+      {
+        "rank": 4,
+        "name": "Disney Lorcana"
+      },
+      {
+        "rank": 5,
+        "name": "Flesh and Blood"
+      },
+      {
+        "rank": 6,
+        "name": "One Piece Card Game"
+      },
+      {
+        "rank": 7,
+        "name": "Digimon Card Game"
+      },
+      {
+        "rank": 8,
+        "name": "Dragon Ball Super Card Game"
+      },
+      {
+        "rank": 9,
+        "name": "Star Wars: Unlimited"
+      },
+      {
+        "rank": 10,
+        "name": "Cardfight!! Vanguard"
+      },
+      {
+        "rank": 11,
+        "name": "Weiss Schwarz"
+      },
+      {
+        "rank": 12,
+        "name": "Hearthstone"
+      },
+      {
+        "rank": 13,
+        "name": "Legends of Runeterra"
+      },
+      {
+        "rank": 14,
+        "name": "Shadowverse"
+      },
+      {
+        "rank": 15,
+        "name": "Marvel Snap"
+      }
+    ]
+  },
+  "sports": {
+    "title": "Najpopularniji sportovi u svijetu",
+    "description": "Urednički izbor globalno poznatih sportova; popularnost zavisi od mjere (publika, sudionici, regije).",
+    "source": "Međunarodne sportske organizacije i javne procjene; približno.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Fudbal"
+      },
+      {
+        "rank": 2,
+        "name": "Košarka"
+      },
+      {
+        "rank": 3,
+        "name": "Kriket"
+      },
+      {
+        "rank": 4,
+        "name": "Tenis"
+      },
+      {
+        "rank": 5,
+        "name": "Odbojka"
+      },
+      {
+        "rank": 6,
+        "name": "Stoni tenis"
+      },
+      {
+        "rank": 7,
+        "name": "Bejzbol"
+      },
+      {
+        "rank": 8,
+        "name": "Ragbi"
+      },
+      {
+        "rank": 9,
+        "name": "Golf"
+      },
+      {
+        "rank": 10,
+        "name": "Hokej na travi"
+      },
+      {
+        "rank": 11,
+        "name": "Badminton"
+      },
+      {
+        "rank": 12,
+        "name": "Boks"
+      },
+      {
+        "rank": 13,
+        "name": "Formula 1"
+      },
+      {
+        "rank": 14,
+        "name": "MMA"
+      },
+      {
+        "rank": 15,
+        "name": "Američki fudbal"
+      }
+    ]
+  },
+  "waterfalls": {
+    "title": "Poznati visoki vodopadi svijeta",
+    "description": "Odabrani visoki vodopadi; tačan poredak zavisi od toga mjeri li se ukupna visina ili neprekinuti pad.",
+    "source": "Geografske reference; približan izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Angel Falls"
+      },
+      {
+        "rank": 2,
+        "name": "Tugela Falls"
+      },
+      {
+        "rank": 3,
+        "name": "Tres Hermanas Falls"
+      },
+      {
+        "rank": 4,
+        "name": "Oloʻupena Falls"
+      },
+      {
+        "rank": 5,
+        "name": "Yumbilla Falls"
+      },
+      {
+        "rank": 6,
+        "name": "Vinnufossen"
+      },
+      {
+        "rank": 7,
+        "name": "Balåifossen"
+      },
+      {
+        "rank": 8,
+        "name": "Puʻukaʻoku Falls"
+      },
+      {
+        "rank": 9,
+        "name": "James Bruce Falls"
+      },
+      {
+        "rank": 10,
+        "name": "Browne Falls"
+      },
+      {
+        "rank": 11,
+        "name": "Kjellfossen"
+      },
+      {
+        "rank": 12,
+        "name": "Waihilau Falls"
+      },
+      {
+        "rank": 13,
+        "name": "Colonial Creek Falls"
+      },
+      {
+        "rank": 14,
+        "name": "Monge Falls"
+      },
+      {
+        "rank": 15,
+        "name": "Gocta Falls"
+      }
+    ]
+  },
+  "lakes": {
+    "title": "Najveća jezera svijeta po površini",
+    "description": "Poredak približan; Kaspijsko more se uključuje kao najveća zatvorena vodena površina, iako se zove more.",
+    "source": "Geografske reference; površine se mijenjaju s vodostajem.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Kaspijsko more"
+      },
+      {
+        "rank": 2,
+        "name": "Gornje jezero"
+      },
+      {
+        "rank": 3,
+        "name": "Viktorijino jezero"
+      },
+      {
+        "rank": 4,
+        "name": "Huronsko jezero"
+      },
+      {
+        "rank": 5,
+        "name": "Jezero Michigan"
+      },
+      {
+        "rank": 6,
+        "name": "Tanganjika"
+      },
+      {
+        "rank": 7,
+        "name": "Bajkalsko jezero"
+      },
+      {
+        "rank": 8,
+        "name": "Veliko Medvjeđe jezero"
+      },
+      {
+        "rank": 9,
+        "name": "Malavijsko jezero"
+      },
+      {
+        "rank": 10,
+        "name": "Veliko Ropsko jezero"
+      },
+      {
+        "rank": 11,
+        "name": "Jezero Erie"
+      },
+      {
+        "rank": 12,
+        "name": "Winnipeg"
+      },
+      {
+        "rank": 13,
+        "name": "Ontario"
+      },
+      {
+        "rank": 14,
+        "name": "Ladoga"
+      },
+      {
+        "rank": 15,
+        "name": "Balhaško jezero"
+      }
+    ]
+  },
+  "islands": {
+    "title": "Najveća ostrva svijeta",
+    "description": "Grenland je najveće ostrvo; kontinenti nisu uključeni. Površine su približne.",
+    "source": "Geografske reference; približne površine.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Grenland"
+      },
+      {
+        "rank": 2,
+        "name": "Nova Gvineja"
+      },
+      {
+        "rank": 3,
+        "name": "Borneo"
+      },
+      {
+        "rank": 4,
+        "name": "Madagaskar"
+      },
+      {
+        "rank": 5,
+        "name": "Baffinovo ostrvo"
+      },
+      {
+        "rank": 6,
+        "name": "Sumatra"
+      },
+      {
+        "rank": 7,
+        "name": "Honshu"
+      },
+      {
+        "rank": 8,
+        "name": "Victoria Island"
+      },
+      {
+        "rank": 9,
+        "name": "Velika Britanija"
+      },
+      {
+        "rank": 10,
+        "name": "Ellesmere Island"
+      },
+      {
+        "rank": 11,
+        "name": "Sulawesi"
+      },
+      {
+        "rank": 12,
+        "name": "Južno ostrvo (Novi Zeland)"
+      },
+      {
+        "rank": 13,
+        "name": "Java"
+      },
+      {
+        "rank": 14,
+        "name": "Sjeverno ostrvo (Novi Zeland)"
+      },
+      {
+        "rank": 15,
+        "name": "Luzon"
+      }
+    ]
+  },
+  "tallest_buildings": {
+    "title": "Najviše zgrade svijeta",
+    "description": "Poredak prema približnoj arhitektonskoj visini dovršenih zgrada; status novih projekata se mijenja.",
+    "source": "CTBUH i javne arhitektonske reference; provjeriti datum za takmičarsku upotrebu.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Burj Khalifa"
+      },
+      {
+        "rank": 2,
+        "name": "Merdeka 118"
+      },
+      {
+        "rank": 3,
+        "name": "Shanghai Tower"
+      },
+      {
+        "rank": 4,
+        "name": "Makkah Royal Clock Tower"
+      },
+      {
+        "rank": 5,
+        "name": "Ping An Finance Center"
+      },
+      {
+        "rank": 6,
+        "name": "Lotte World Tower"
+      },
+      {
+        "rank": 7,
+        "name": "One World Trade Center"
+      },
+      {
+        "rank": 8,
+        "name": "Guangzhou CTF Finance Centre"
+      },
+      {
+        "rank": 9,
+        "name": "Tianjin CTF Finance Centre"
+      },
+      {
+        "rank": 10,
+        "name": "CITIC Tower"
+      },
+      {
+        "rank": 11,
+        "name": "Taipei 101"
+      },
+      {
+        "rank": 12,
+        "name": "Shanghai World Financial Center"
+      },
+      {
+        "rank": 13,
+        "name": "International Commerce Centre"
+      },
+      {
+        "rank": 14,
+        "name": "Wuhan Greenland Center"
+      },
+      {
+        "rank": 15,
+        "name": "Central Park Tower"
+      }
+    ]
+  },
+  "composers": {
+    "title": "Poznati klasični kompozitori",
+    "description": "Urednički izbor kompozitora iz različitih razdoblja; redoslijed je subjektivan.",
+    "source": "Muzičke enciklopedije; urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Johann Sebastian Bach"
+      },
+      {
+        "rank": 2,
+        "name": "Wolfgang Amadeus Mozart"
+      },
+      {
+        "rank": 3,
+        "name": "Ludwig van Beethoven"
+      },
+      {
+        "rank": 4,
+        "name": "Frédéric Chopin"
+      },
+      {
+        "rank": 5,
+        "name": "Pyotr Ilyich Tchaikovsky"
+      },
+      {
+        "rank": 6,
+        "name": "Antonio Vivaldi"
+      },
+      {
+        "rank": 7,
+        "name": "Claude Debussy"
+      },
+      {
+        "rank": 8,
+        "name": "Franz Schubert"
+      },
+      {
+        "rank": 9,
+        "name": "Richard Wagner"
+      },
+      {
+        "rank": 10,
+        "name": "George Frideric Handel"
+      },
+      {
+        "rank": 11,
+        "name": "Joseph Haydn"
+      },
+      {
+        "rank": 12,
+        "name": "Igor Stravinsky"
+      },
+      {
+        "rank": 13,
+        "name": "Sergei Rachmaninoff"
+      },
+      {
+        "rank": 14,
+        "name": "Giuseppe Verdi"
+      },
+      {
+        "rank": 15,
+        "name": "Gustav Mahler"
+      }
+    ]
+  },
+  "explorers": {
+    "title": "Poznati istraživači i moreplovci",
+    "description": "Urednički izbor historijskih istraživača; naziv „otkriće” zavisi od perspektive i već naseljenih područja.",
+    "source": "Historijske reference; urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Ibn Battuta"
+      },
+      {
+        "rank": 2,
+        "name": "Zheng He"
+      },
+      {
+        "rank": 3,
+        "name": "Marco Polo"
+      },
+      {
+        "rank": 4,
+        "name": "Ferdinand Magellan"
+      },
+      {
+        "rank": 5,
+        "name": "James Cook"
+      },
+      {
+        "rank": 6,
+        "name": "Roald Amundsen"
+      },
+      {
+        "rank": 7,
+        "name": "Ernest Shackleton"
+      },
+      {
+        "rank": 8,
+        "name": "Ibn Fadlan"
+      },
+      {
+        "rank": 9,
+        "name": "Vasco da Gama"
+      },
+      {
+        "rank": 10,
+        "name": "Christopher Columbus"
+      },
+      {
+        "rank": 11,
+        "name": "Leif Erikson"
+      },
+      {
+        "rank": 12,
+        "name": "David Livingstone"
+      },
+      {
+        "rank": 13,
+        "name": "Sacagawea"
+      },
+      {
+        "rank": 14,
+        "name": "Jacques Cartier"
+      },
+      {
+        "rank": 15,
+        "name": "Fridtjof Nansen"
+      }
+    ]
+  },
+  "mythology_gods": {
+    "title": "Poznati bogovi iz mitologija",
+    "description": "Urednički izbor božanstava iz više tradicija; ne predstavlja rang njihove važnosti u vjerama.",
+    "source": "Mitološke enciklopedije; urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Zeus"
+      },
+      {
+        "rank": 2,
+        "name": "Odin"
+      },
+      {
+        "rank": 3,
+        "name": "Ra"
+      },
+      {
+        "rank": 4,
+        "name": "Anubis"
+      },
+      {
+        "rank": 5,
+        "name": "Athena"
+      },
+      {
+        "rank": 6,
+        "name": "Thor"
+      },
+      {
+        "rank": 7,
+        "name": "Poseidon"
+      },
+      {
+        "rank": 8,
+        "name": "Hades"
+      },
+      {
+        "rank": 9,
+        "name": "Isis"
+      },
+      {
+        "rank": 10,
+        "name": "Loki"
+      },
+      {
+        "rank": 11,
+        "name": "Amaterasu"
+      },
+      {
+        "rank": 12,
+        "name": "Shiva"
+      },
+      {
+        "rank": 13,
+        "name": "Vishnu"
+      },
+      {
+        "rank": 14,
+        "name": "Quetzalcoatl"
+      },
+      {
+        "rank": 15,
+        "name": "Marduk"
+      }
+    ]
+  },
+  "game_consoles": {
+    "title": "Poznate igraće konzole",
+    "description": "Odabrane kućne i prijenosne konzole s velikim historijskim utjecajem; redoslijed nije rang prodaje.",
+    "source": "Službene historije proizvođača i industrijske reference.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "PlayStation 2"
+      },
+      {
+        "rank": 2,
+        "name": "Nintendo DS"
+      },
+      {
+        "rank": 3,
+        "name": "Nintendo Switch"
+      },
+      {
+        "rank": 4,
+        "name": "Game Boy"
+      },
+      {
+        "rank": 5,
+        "name": "PlayStation 4"
+      },
+      {
+        "rank": 6,
+        "name": "PlayStation"
+      },
+      {
+        "rank": 7,
+        "name": "Wii"
+      },
+      {
+        "rank": 8,
+        "name": "PlayStation 5"
+      },
+      {
+        "rank": 9,
+        "name": "Xbox 360"
+      },
+      {
+        "rank": 10,
+        "name": "Nintendo Entertainment System"
+      },
+      {
+        "rank": 11,
+        "name": "Super Nintendo Entertainment System"
+      },
+      {
+        "rank": 12,
+        "name": "PlayStation 3"
+      },
+      {
+        "rank": 13,
+        "name": "Xbox One"
+      },
+      {
+        "rank": 14,
+        "name": "Nintendo 64"
+      },
+      {
+        "rank": 15,
+        "name": "Sega Genesis"
+      }
+    ]
+  },
+  "space_objects": {
+    "title": "Poznati objekti Sunčevog sistema",
+    "description": "Planete i poznata mala tijela/mjeseci. Lista je za zabavu, nije rang veličine ili važnosti.",
+    "source": "NASA i astronomske reference; urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Mars"
+      },
+      {
+        "rank": 2,
+        "name": "Jupiter"
+      },
+      {
+        "rank": 3,
+        "name": "Saturn"
+      },
+      {
+        "rank": 4,
+        "name": "Europa"
+      },
+      {
+        "rank": 5,
+        "name": "Titan"
+      },
+      {
+        "rank": 6,
+        "name": "Enceladus"
+      },
+      {
+        "rank": 7,
+        "name": "Pluton"
+      },
+      {
+        "rank": 8,
+        "name": "Ceres"
+      },
+      {
+        "rank": 9,
+        "name": "Ganimed"
+      },
+      {
+        "rank": 10,
+        "name": "Io"
+      },
+      {
+        "rank": 11,
+        "name": "Triton"
+      },
+      {
+        "rank": 12,
+        "name": "Venera"
+      },
+      {
+        "rank": 13,
+        "name": "Merkur"
+      },
+      {
+        "rank": 14,
+        "name": "Neptun"
+      },
+      {
+        "rank": 15,
+        "name": "Uran"
+      }
+    ]
+  },
+  "famous_bridges": {
+    "title": "Poznati mostovi svijeta",
+    "description": "Urednički izbor poznatih mostova zbog arhitekture, historije ili prepoznatljivosti; nije rang dužine.",
+    "source": "Inženjerske i turističke reference; urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Golden Gate Bridge"
+      },
+      {
+        "rank": 2,
+        "name": "Tower Bridge"
+      },
+      {
+        "rank": 3,
+        "name": "Brooklyn Bridge"
+      },
+      {
+        "rank": 4,
+        "name": "Sydney Harbour Bridge"
+      },
+      {
+        "rank": 5,
+        "name": "Akashi Kaikyō Bridge"
+      },
+      {
+        "rank": 6,
+        "name": "Millau Viaduct"
+      },
+      {
+        "rank": 7,
+        "name": "Rialto Bridge"
+      },
+      {
+        "rank": 8,
+        "name": "Charles Bridge"
+      },
+      {
+        "rank": 9,
+        "name": "Forth Bridge"
+      },
+      {
+        "rank": 10,
+        "name": "Øresund Bridge"
+      },
+      {
+        "rank": 11,
+        "name": "Ponte Vecchio"
+      },
+      {
+        "rank": 12,
+        "name": "Great Belt Bridge"
+      },
+      {
+        "rank": 13,
+        "name": "Helix Bridge"
+      },
+      {
+        "rank": 14,
+        "name": "Danyang–Kunshan Grand Bridge"
+      },
+      {
+        "rank": 15,
+        "name": "Vasco da Gama Bridge"
+      }
+    ]
+  },
+  "famous_dogs": {
+    "title": "Poznate pasmine pasa",
+    "description": "Odabrane poznate pasmine; redoslijed nije rang popularnosti i popularnost se razlikuje po zemlji.",
+    "source": "Kinološke organizacije i urednički izbor.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Labrador retriver"
+      },
+      {
+        "rank": 2,
+        "name": "Njemački ovčar"
+      },
+      {
+        "rank": 3,
+        "name": "Zlatni retriver"
+      },
+      {
+        "rank": 4,
+        "name": "Francuski buldog"
+      },
+      {
+        "rank": 5,
+        "name": "Pudlica"
+      },
+      {
+        "rank": 6,
+        "name": "Bulldog"
+      },
+      {
+        "rank": 7,
+        "name": "Beagle"
+      },
+      {
+        "rank": 8,
+        "name": "Rottweiler"
+      },
+      {
+        "rank": 9,
+        "name": "Jazavčar"
+      },
+      {
+        "rank": 10,
+        "name": "Sibirski haski"
+      },
+      {
+        "rank": 11,
+        "name": "Doberman"
+      },
+      {
+        "rank": 12,
+        "name": "Border collie"
+      },
+      {
+        "rank": 13,
+        "name": "Shih tzu"
+      },
+      {
+        "rank": 14,
+        "name": "Chihuahua"
+      },
+      {
+        "rank": 15,
+        "name": "Bernski planinski pas"
+      }
+    ]
+  },
+  "famous_artworks": {
+    "title": "Poznata umjetnička djela",
+    "description": "Urednički izbor poznatih djela iz različitih razdoblja; redoslijed je subjektivan.",
+    "source": "Muzejske i umjetničko-historijske reference.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Mona Lisa"
+      },
+      {
+        "rank": 2,
+        "name": "Zvjezdana noć"
+      },
+      {
+        "rank": 3,
+        "name": "Posljednja večera"
+      },
+      {
+        "rank": 4,
+        "name": "Guernica"
+      },
+      {
+        "rank": 5,
+        "name": "Djevojka s bisernom naušnicom"
+      },
+      {
+        "rank": 6,
+        "name": "Krik"
+      },
+      {
+        "rank": 7,
+        "name": "Stvaranje Adama"
+      },
+      {
+        "rank": 8,
+        "name": "Rođenje Venere"
+      },
+      {
+        "rank": 9,
+        "name": "Noćna straža"
+      },
+      {
+        "rank": 10,
+        "name": "Veliki val kod Kanagawe"
+      },
+      {
+        "rank": 11,
+        "name": "Poljubac"
+      },
+      {
+        "rank": 12,
+        "name": "Las Meninas"
+      },
+      {
+        "rank": 13,
+        "name": "American Gothic"
+      },
+      {
+        "rank": 14,
+        "name": "Impresija, izlazak sunca"
+      },
+      {
+        "rank": 15,
+        "name": "David"
       }
     ]
   }
