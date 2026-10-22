@@ -1,0 +1,914 @@
+{
+  "countries_area": {
+    "title": "Najveće države po površini",
+    "description": "Površina države u km². Provjeriti da li izvor uključuje unutrašnje vode i sporne teritorije.",
+    "source": "CIA World Factbook / The World Factbook rankings; demo skup u ovoj verziji nije kompletan Top 100.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Rusija"
+      },
+      {
+        "rank": 2,
+        "name": "Kanada"
+      },
+      {
+        "rank": 3,
+        "name": "Sjedinjene Američke Države"
+      },
+      {
+        "rank": 4,
+        "name": "Kina"
+      },
+      {
+        "rank": 5,
+        "name": "Brazil"
+      },
+      {
+        "rank": 6,
+        "name": "Australija"
+      },
+      {
+        "rank": 7,
+        "name": "Indija"
+      },
+      {
+        "rank": 8,
+        "name": "Argentina"
+      },
+      {
+        "rank": 9,
+        "name": "Kazahstan"
+      },
+      {
+        "rank": 10,
+        "name": "Alžir"
+      },
+      {
+        "rank": 11,
+        "name": "Demokratska Republika Kongo"
+      },
+      {
+        "rank": 12,
+        "name": "Saudijska Arabija"
+      },
+      {
+        "rank": 13,
+        "name": "Meksiko"
+      },
+      {
+        "rank": 14,
+        "name": "Indonezija"
+      },
+      {
+        "rank": 15,
+        "name": "Sudan"
+      },
+      {
+        "rank": 16,
+        "name": "Libija"
+      },
+      {
+        "rank": 17,
+        "name": "Iran"
+      },
+      {
+        "rank": 18,
+        "name": "Mongolija"
+      },
+      {
+        "rank": 19,
+        "name": "Peru"
+      },
+      {
+        "rank": 20,
+        "name": "Čad"
+      }
+    ]
+  },
+  "games_sales": {
+    "title": "Najprodavanije videoigre",
+    "description": "Jedinice prodaje se razlikuju po metodologiji i načinu brojanja izdanja.",
+    "source": "Guinness World Records, HP Tech Takes i javno prijavljene prodaje; demo Top 20, nije konačan Top 100.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Tetris"
+      },
+      {
+        "rank": 2,
+        "name": "Minecraft"
+      },
+      {
+        "rank": 3,
+        "name": "Grand Theft Auto V"
+      },
+      {
+        "rank": 4,
+        "name": "Wii Sports"
+      },
+      {
+        "rank": 5,
+        "name": "PUBG: Battlegrounds"
+      },
+      {
+        "rank": 6,
+        "name": "Mario Kart 8 / Deluxe"
+      },
+      {
+        "rank": 7,
+        "name": "Red Dead Redemption 2"
+      },
+      {
+        "rank": 8,
+        "name": "Terraria"
+      },
+      {
+        "rank": 9,
+        "name": "Super Mario Bros."
+      },
+      {
+        "rank": 10,
+        "name": "The Witcher 3: Wild Hunt"
+      },
+      {
+        "rank": 11,
+        "name": "Animal Crossing: New Horizons"
+      },
+      {
+        "rank": 12,
+        "name": "Human: Fall Flat"
+      },
+      {
+        "rank": 13,
+        "name": "Overwatch"
+      },
+      {
+        "rank": 14,
+        "name": "Pokémon Red / Green / Blue / Yellow"
+      },
+      {
+        "rank": 15,
+        "name": "Wii Fit / Wii Fit Plus"
+      },
+      {
+        "rank": 16,
+        "name": "The Oregon Trail"
+      },
+      {
+        "rank": 17,
+        "name": "Call of Duty: Modern Warfare"
+      },
+      {
+        "rank": 18,
+        "name": "Stardew Valley"
+      },
+      {
+        "rank": 19,
+        "name": "Super Smash Bros. Ultimate"
+      },
+      {
+        "rank": 20,
+        "name": "Cyberpunk 2077"
+      }
+    ]
+  },
+  "films_gross": {
+    "title": "Filmovi s najvećom svjetskom zaradom",
+    "description": "Ukupna kino zarada u svijetu, nominalni dolari, uključujući reizdanja. Rangiranje se mijenja.",
+    "source": "Box Office Mojo, worldwide lifetime gross, provjera 2026-10.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Avatar"
+      },
+      {
+        "rank": 2,
+        "name": "Avengers: Endgame"
+      },
+      {
+        "rank": 3,
+        "name": "Avatar: The Way of Water"
+      },
+      {
+        "rank": 4,
+        "name": "Ne Zha 2"
+      },
+      {
+        "rank": 5,
+        "name": "Titanic"
+      },
+      {
+        "rank": 6,
+        "name": "Star Wars: The Force Awakens"
+      },
+      {
+        "rank": 7,
+        "name": "Avengers: Infinity War"
+      },
+      {
+        "rank": 8,
+        "name": "Spider-Man: No Way Home"
+      },
+      {
+        "rank": 9,
+        "name": "Zootopia 2"
+      },
+      {
+        "rank": 10,
+        "name": "Inside Out 2"
+      },
+      {
+        "rank": 11,
+        "name": "Jurassic World"
+      },
+      {
+        "rank": 12,
+        "name": "The Lion King (2019)"
+      },
+      {
+        "rank": 13,
+        "name": "The Avengers"
+      },
+      {
+        "rank": 14,
+        "name": "Furious 7"
+      },
+      {
+        "rank": 15,
+        "name": "Top Gun: Maverick"
+      },
+      {
+        "rank": 16,
+        "name": "Frozen II"
+      },
+      {
+        "rank": 17,
+        "name": "Barbie"
+      },
+      {
+        "rank": 18,
+        "name": "Avengers: Age of Ultron"
+      },
+      {
+        "rank": 19,
+        "name": "The Super Mario Bros. Movie"
+      },
+      {
+        "rank": 20,
+        "name": "Black Panther"
+      }
+    ]
+  },
+  "mountains": {
+    "title": "Najviši planinski vrhovi",
+    "description": "Visina iznad nivoa mora; visine i razgraničenja vrhova mogu se razlikovati po izvoru.",
+    "source": "Opće geografske reference; demo skup, potrebno uredničko potvrđivanje prije rangiranja 100.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Mount Everest"
+      },
+      {
+        "rank": 2,
+        "name": "K2"
+      },
+      {
+        "rank": 3,
+        "name": "Kangchenjunga"
+      },
+      {
+        "rank": 4,
+        "name": "Lhotse"
+      },
+      {
+        "rank": 5,
+        "name": "Makalu"
+      },
+      {
+        "rank": 6,
+        "name": "Cho Oyu"
+      },
+      {
+        "rank": 7,
+        "name": "Dhaulagiri I"
+      },
+      {
+        "rank": 8,
+        "name": "Manaslu"
+      },
+      {
+        "rank": 9,
+        "name": "Nanga Parbat"
+      },
+      {
+        "rank": 10,
+        "name": "Annapurna I"
+      },
+      {
+        "rank": 11,
+        "name": "Gasherbrum I"
+      },
+      {
+        "rank": 12,
+        "name": "Broad Peak"
+      },
+      {
+        "rank": 13,
+        "name": "Gasherbrum II"
+      },
+      {
+        "rank": 14,
+        "name": "Shishapangma"
+      },
+      {
+        "rank": 15,
+        "name": "Gyachung Kang"
+      }
+    ]
+  },
+  "population": {
+    "title": "Države po broju stanovnika",
+    "description": "Procjene zavise od godine i izvora. Koristiti istu referentnu godinu za svih 100 mjesta.",
+    "source": "UN World Population Prospects; demo redoslijed nije verificiran kao Top 100 aktuelne godine.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Indija"
+      },
+      {
+        "rank": 2,
+        "name": "Kina"
+      },
+      {
+        "rank": 3,
+        "name": "Sjedinjene Američke Države"
+      },
+      {
+        "rank": 4,
+        "name": "Indonezija"
+      },
+      {
+        "rank": 5,
+        "name": "Pakistan"
+      },
+      {
+        "rank": 6,
+        "name": "Nigerija"
+      },
+      {
+        "rank": 7,
+        "name": "Brazil"
+      },
+      {
+        "rank": 8,
+        "name": "Bangladeš"
+      },
+      {
+        "rank": 9,
+        "name": "Rusija"
+      },
+      {
+        "rank": 10,
+        "name": "Etiopija"
+      },
+      {
+        "rank": 11,
+        "name": "Meksiko"
+      },
+      {
+        "rank": 12,
+        "name": "Japan"
+      },
+      {
+        "rank": 13,
+        "name": "Egipat"
+      },
+      {
+        "rank": 14,
+        "name": "Filipini"
+      },
+      {
+        "rank": 15,
+        "name": "Demokratska Republika Kongo"
+      }
+    ]
+  },
+  "oceans": {
+    "title": "Najveći okeani i mora",
+    "description": "Površina vodenih tijela; granice mora mogu varirati među geografskim definicijama.",
+    "source": "World Factbook 2025; demo kategorija nije potpuni Top 100.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Tihi okean"
+      },
+      {
+        "rank": 2,
+        "name": "Atlantski okean"
+      },
+      {
+        "rank": 3,
+        "name": "Indijski okean"
+      },
+      {
+        "rank": 4,
+        "name": "Južni okean"
+      },
+      {
+        "rank": 5,
+        "name": "Arktički okean"
+      },
+      {
+        "rank": 6,
+        "name": "Koraljno more"
+      },
+      {
+        "rank": 7,
+        "name": "Južnokinesko more"
+      },
+      {
+        "rank": 8,
+        "name": "Karipsko more"
+      },
+      {
+        "rank": 9,
+        "name": "Beringovo more"
+      },
+      {
+        "rank": 10,
+        "name": "Sredozemno more"
+      }
+    ]
+  },
+  "animals": {
+    "title": "Najbrže kopnene životinje",
+    "description": "Približne maksimalne brzine; metode mjerenja i podvrste utiču na poredak.",
+    "source": "Popularno-naučne reference; urednički demo poredak, ne strogo standardizovana baza.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Gepard"
+      },
+      {
+        "rank": 2,
+        "name": "Pronghorn"
+      },
+      {
+        "rank": 3,
+        "name": "Springbok"
+      },
+      {
+        "rank": 4,
+        "name": "Wildebeest"
+      },
+      {
+        "rank": 5,
+        "name": "Lion"
+      },
+      {
+        "rank": 6,
+        "name": "Blackbuck"
+      },
+      {
+        "rank": 7,
+        "name": "Hare"
+      },
+      {
+        "rank": 8,
+        "name": "Greyhound"
+      },
+      {
+        "rank": 9,
+        "name": "Ostrich"
+      },
+      {
+        "rank": 10,
+        "name": "Quarter Horse"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Najrašireniji jezici po maternjem govorniku",
+    "description": "Rang zavisi od definicije jezika i godine procjene.",
+    "source": "Ethnologue / Britannica; demo lista, ne potpuni Top 100.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Mandarinski kineski"
+      },
+      {
+        "rank": 2,
+        "name": "Španski"
+      },
+      {
+        "rank": 3,
+        "name": "Engleski"
+      },
+      {
+        "rank": 4,
+        "name": "Hindi"
+      },
+      {
+        "rank": 5,
+        "name": "Bengalski"
+      },
+      {
+        "rank": 6,
+        "name": "Portugalski"
+      },
+      {
+        "rank": 7,
+        "name": "Ruski"
+      },
+      {
+        "rank": 8,
+        "name": "Japanski"
+      },
+      {
+        "rank": 9,
+        "name": "Zapadni pandžapski"
+      },
+      {
+        "rank": 10,
+        "name": "Marathi"
+      }
+    ]
+  },
+  "rivers": {
+    "title": "Najduže rijeke",
+    "description": "Dužine su približne i razlikuju se zavisno od toga gdje se mjeri izvor i ušće.",
+    "source": "Geografske reference; Nil/Amazonas redoslijed je predmet metodološke rasprave.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Nil"
+      },
+      {
+        "rank": 2,
+        "name": "Amazon"
+      },
+      {
+        "rank": 3,
+        "name": "Jangce"
+      },
+      {
+        "rank": 4,
+        "name": "Mississippi–Missouri"
+      },
+      {
+        "rank": 5,
+        "name": "Jenisej"
+      },
+      {
+        "rank": 6,
+        "name": "Žuta rijeka"
+      },
+      {
+        "rank": 7,
+        "name": "Ob–Irtiš"
+      },
+      {
+        "rank": 8,
+        "name": "Parana"
+      },
+      {
+        "rank": 9,
+        "name": "Kongo"
+      },
+      {
+        "rank": 10,
+        "name": "Amur"
+      }
+    ]
+  },
+  "elements": {
+    "title": "Hemijski elementi po zastupljenosti u Zemljinoj kori",
+    "description": "Maseni udio približan; rangiranje se odnosi na Zemljinu koru, ne cijelu planetu.",
+    "source": "Standardne geološke reference; demo poredak po približnom masenom udjelu.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Kisik"
+      },
+      {
+        "rank": 2,
+        "name": "Silicij"
+      },
+      {
+        "rank": 3,
+        "name": "Aluminij"
+      },
+      {
+        "rank": 4,
+        "name": "Željezo"
+      },
+      {
+        "rank": 5,
+        "name": "Kalcij"
+      },
+      {
+        "rank": 6,
+        "name": "Natrij"
+      },
+      {
+        "rank": 7,
+        "name": "Kalij"
+      },
+      {
+        "rank": 8,
+        "name": "Magnezij"
+      },
+      {
+        "rank": 9,
+        "name": "Titan"
+      },
+      {
+        "rank": 10,
+        "name": "Vodik"
+      }
+    ]
+  },
+  "brands": {
+    "title": "Najvrijedniji globalni brendovi",
+    "description": "Procjene vrijednosti zavise od metodologije i izdanja godišnjeg izvještaja.",
+    "source": "Interbrand / Brand Finance; demo lista, rang nije aktuelno potvrđen.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Apple"
+      },
+      {
+        "rank": 2,
+        "name": "Microsoft"
+      },
+      {
+        "rank": 3,
+        "name": "Google"
+      },
+      {
+        "rank": 4,
+        "name": "Amazon"
+      },
+      {
+        "rank": 5,
+        "name": "Samsung"
+      },
+      {
+        "rank": 6,
+        "name": "Walmart"
+      },
+      {
+        "rank": 7,
+        "name": "NVIDIA"
+      },
+      {
+        "rank": 8,
+        "name": "TikTok"
+      },
+      {
+        "rank": 9,
+        "name": "Facebook"
+      },
+      {
+        "rank": 10,
+        "name": "Instagram"
+      }
+    ]
+  },
+  "football": {
+    "title": "Najtrofejniji fudbalski klubovi",
+    "description": "Brojanje trofeja zavisi od toga koja takmičenja se uključuju.",
+    "source": "Urednički demo poredak, nije standardizovan globalni Top 100.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Real Madrid"
+      },
+      {
+        "rank": 2,
+        "name": "Barcelona"
+      },
+      {
+        "rank": 3,
+        "name": "Al Ahly"
+      },
+      {
+        "rank": 4,
+        "name": "Bayern München"
+      },
+      {
+        "rank": 5,
+        "name": "Manchester United"
+      },
+      {
+        "rank": 6,
+        "name": "Liverpool"
+      },
+      {
+        "rank": 7,
+        "name": "Juventus"
+      },
+      {
+        "rank": 8,
+        "name": "Paris Saint-Germain"
+      },
+      {
+        "rank": 9,
+        "name": "Boca Juniors"
+      },
+      {
+        "rank": 10,
+        "name": "River Plate"
+      }
+    ]
+  },
+  "books": {
+    "title": "Najprodavanije knjige svih vremena",
+    "description": "Procjene prodaje su često nepotpune; serijali i religijski tekstovi nisu uvijek uporedivi.",
+    "source": "Javne procjene prodaje; demo lista, ne definitivno rangiranje.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Don Quixote"
+      },
+      {
+        "rank": 2,
+        "name": "A Tale of Two Cities"
+      },
+      {
+        "rank": 3,
+        "name": "The Little Prince"
+      },
+      {
+        "rank": 4,
+        "name": "Harry Potter and the Philosopher's Stone"
+      },
+      {
+        "rank": 5,
+        "name": "And Then There Were None"
+      },
+      {
+        "rank": 6,
+        "name": "Dream of the Red Chamber"
+      },
+      {
+        "rank": 7,
+        "name": "The Hobbit"
+      },
+      {
+        "rank": 8,
+        "name": "She: A History of Adventure"
+      },
+      {
+        "rank": 9,
+        "name": "The Lion, the Witch and the Wardrobe"
+      },
+      {
+        "rank": 10,
+        "name": "The Da Vinci Code"
+      }
+    ]
+  },
+  "cities": {
+    "title": "Najveći urbani aglomeracijski centri",
+    "description": "Rang zavisi od granica urbanog područja i metodologije procjene.",
+    "source": "UN World Urbanization Prospects; demo redoslijed, godina mora biti fiksirana za finalni paket.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Tokyo"
+      },
+      {
+        "rank": 2,
+        "name": "Delhi"
+      },
+      {
+        "rank": 3,
+        "name": "Shanghai"
+      },
+      {
+        "rank": 4,
+        "name": "Dhaka"
+      },
+      {
+        "rank": 5,
+        "name": "Cairo"
+      },
+      {
+        "rank": 6,
+        "name": "São Paulo"
+      },
+      {
+        "rank": 7,
+        "name": "Mexico City"
+      },
+      {
+        "rank": 8,
+        "name": "Beijing"
+      },
+      {
+        "rank": 9,
+        "name": "Mumbai"
+      },
+      {
+        "rank": 10,
+        "name": "Osaka"
+      }
+    ]
+  },
+  "tech": {
+    "title": "Najveće tehnološke kompanije po tržišnoj vrijednosti",
+    "description": "Vrijednosti se mijenjaju svakodnevno, zato rang mora imati datum presjeka.",
+    "source": "Tržišni podaci su promjenjivi; demo lista nije live finansijski rang.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "NVIDIA"
+      },
+      {
+        "rank": 2,
+        "name": "Microsoft"
+      },
+      {
+        "rank": 3,
+        "name": "Apple"
+      },
+      {
+        "rank": 4,
+        "name": "Alphabet"
+      },
+      {
+        "rank": 5,
+        "name": "Amazon"
+      },
+      {
+        "rank": 6,
+        "name": "Saudi Aramco"
+      },
+      {
+        "rank": 7,
+        "name": "Meta"
+      },
+      {
+        "rank": 8,
+        "name": "TSMC"
+      },
+      {
+        "rank": 9,
+        "name": "Broadcom"
+      },
+      {
+        "rank": 10,
+        "name": "Tesla"
+      }
+    ]
+  },
+  "wonders": {
+    "title": "Najposjećenije turističke atrakcije",
+    "description": "Poredak zavisi od godine, izvora i toga da li se broje besplatni javni prostori.",
+    "source": "Urednički demo izbor, ne verificiran Top 100.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Times Square"
+      },
+      {
+        "rank": 2,
+        "name": "Central Park"
+      },
+      {
+        "rank": 3,
+        "name": "Las Vegas Strip"
+      },
+      {
+        "rank": 4,
+        "name": "Eiffelov toranj"
+      },
+      {
+        "rank": 5,
+        "name": "Louvre"
+      },
+      {
+        "rank": 6,
+        "name": "Great Wall of China"
+      },
+      {
+        "rank": 7,
+        "name": "Colosseum"
+      },
+      {
+        "rank": 8,
+        "name": "Taj Mahal"
+      },
+      {
+        "rank": 9,
+        "name": "Disneyland"
+      },
+      {
+        "rank": 10,
+        "name": "Niagara Falls"
+      }
+    ]
+  }
+}
