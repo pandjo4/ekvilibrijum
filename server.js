@@ -34,10 +34,10 @@ function finishRound(r){
 }
 const DATA = require("./lists.json");
 io.on("connection", socket => {
-  socket.on("room:create", ({name, maxRounds=5}={}, cb=()=>{}) => {
+  socket.on("room:create", ({name, maxRounds=5, listRepeats=1}={}, cb=()=>{}) => {
     let c; do { c=code(); } while(rooms.has(c));
     const player={id:socket.id,name:cleanName(name),score:0,connected:true,answers:0,guess:null,rank:null,lastPoints:0};
-    const r={code:c,hostId:socket.id,players:[player],phase:"lobby",round:0,maxRounds:Math.max(1,Math.min(20,Number(maxRounds)||5)),listId:null,category:null,turnIndex:0,usedLists:[],lastResult:null,settings:{maxPlayers:8}};
+    const r={code:c,hostId:socket.id,players:[player],phase:"lobby",round:0,maxRounds:Math.max(1,Math.min(15,Number(maxRounds)||5)),listRepeats:Math.max(1,Math.min(3,Number(listRepeats)||1)),listPlayCounts:{},listId:null,category:null,turnIndex:0,usedLists:[],lastResult:null,settings:{maxPlayers:8}};
     rooms.set(c,r); socket.join(c); cb({ok:true,code:c,room:publicRoom(r)}); sendRoom(r);
   });
   socket.on("room:join", ({code:c,name}={}, cb=()=>{}) => {
@@ -58,9 +58,10 @@ io.on("connection", socket => {
     sendRoom(r); cb({ok:true});
   });
   function chooseList(r){
-    let available=Object.keys(DATA).filter(k=>!r.usedLists.includes(k));
-    if(!available.length){r.usedLists=[];available=Object.keys(DATA);}
+    let available=Object.keys(DATA).filter(k=>(r.listPlayCounts[k]||0)<r.listRepeats);
+    if(!available.length){r.listPlayCounts={};r.usedLists=[];available=Object.keys(DATA);}
     r.listId=available[Math.floor(Math.random()*available.length)];
+    r.listPlayCounts[r.listId]=(r.listPlayCounts[r.listId]||0)+1;
     r.usedLists.push(r.listId); r.category=DATA[r.listId].title;
   }
   socket.on("game:guess", ({guess}={}, cb=()=>{}) => {

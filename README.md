@@ -1,12 +1,27 @@
-# Ekvilibrijum
+# Ekvilibrijum — Top 15 edition
 
-Multiplayer web igra za 1 do 8 igrača. Frontend je statički HTML/CSS/JS, a sobe, potezi i bodovanje žive na Node.js + Socket.IO serveru.
+Multiplayer party igra za 1–8 igrača. Frontend je HTML/CSS/JS, a sobe, potezi i bodovanje obrađuju se na Node.js + Socket.IO serveru.
 
-## Važno o listama
+## Šta je promijenjeno
 
-Ovo je funkcionalan **MVP**, ali `lists.json` namjerno označava nekoliko demo rangiranja koja nisu potpuni ili potpuno provjereni Top 100. Ne bi bilo pošteno predstavljati ih kao 15 provjerenih Top 100 lista. Trenutno su uključene kategorije: države po površini, prodaja videoigara, zarada filmova, planinski vrhovi, populacija država, okeani i mora, životinje, jezici, rijeke, hemijski elementi, brendovi, fudbalski klubovi, knjige, gradovi i tehnološke kompanije.
+- Sve kategorije su sada **Top 15**: svaka lista ima tačno 15 unosa i rangove od 1 do 15.
+- Uklonjena je Top 100 tematika iz interfejsa i pravila.
+- Dodane su nove zabavne kategorije: omiljeni filmovi, omiljene videoigre i popularna jela.
+- Na početku domaćin bira broj rundi (1, 3, 5, 10 ili 15) i koliko puta ista lista smije biti izabrana (1, 2 ili 3 puta prije ponovnog miješanja dostupnih lista).
+- Poboljšani su mobilni prikaz, kontrole, fokus tastature, animacije i podrška za `prefers-reduced-motion`.
+- Server i dalje sam provjerava odgovore i dodjeljuje bodove; klijent ne može poslati vlastiti rezultat.
 
-Za produkcijsku verziju svaka kategorija treba imati 100 unosa i metapodatke `source`, `checkedAt`, `methodology` i `items`. Za rangiranja koja se mijenjaju (filmovi, populacija, kompanije) dodaj datum presjeka. Videoigre, knjige, klubovi i turističke atrakcije zahtijevaju jasno definisanu metodologiju. Ne miješati rangove iz različitih godina ili različitih izvora.
+## Bodovanje i pravila
+
+- 1–8 igrača po sobi; domaćin pokreće partiju i prelazi na sljedeću rundu.
+- Svaki igrač ima jedan odgovor po rundi.
+- Tačan odgovor dobija bodove jednake rangu: #1 = 1 bod, #15 = 15 bodova. Pogrešan odgovor = 0 bodova.
+- Odgovor mora odgovarati imenu unosa iz liste. Odgovori se ne provjeravaju javno prije završetka kruga.
+- Podešavanje ponavljanja određuje koliko puta pojedina kategorija može biti odabrana u jednoj partiji prije nego što se skup lista ponovo promiješa.
+
+## Izvori i urednička napomena
+
+Liste geografskih i naučnih činjenica zasnovane su na općim javnim referencama; zabavne kategorije su urednički odabiri. Nove kategorije za filmove i videoigre tematski su inspirisane fan-votiranim Ranker listama, uključujući [The Best Games of All Time](https://www.ranker.com/crowdranked-list/the-best-games-of-all-time) i njihove liste filmova. Rankerove liste su dinamične i glasane od publike; ovdje korišteni odgovori i redoslijed nisu predstavljeni kao zvanični Ranker poredak. Promjenjivi podaci (kino-zarada, tržišne vrijednosti i populacija) su približni i nisu live podaci.
 
 ## Lokalno pokretanje
 
@@ -17,25 +32,12 @@ Za produkcijsku verziju svaka kategorija treba imati 100 unosa i metapodatke `so
 
 ## GitHub + Render
 
-1. Napravi GitHub repozitorij i dodaj sve fajlove iz ZIP-a.
-2. Na Renderu izaberi **New + → Web Service**, poveži repozitorij.
+1. Dodaj sve fajlove iz ZIP-a u GitHub repozitorij.
+2. Na Renderu izaberi **New + → Web Service** i poveži repozitorij.
 3. Build command: `npm install`
 4. Start command: `npm start`
-5. Render prepoznaje `render.yaml`; koristi Node runtime i `PORT` koji dodjeljuje platforma.
-6. Nakon deploya, URL Render servisa služi i frontend i Socket.IO. Za Netlify frontend odvojen od servera, promijeni `io()` u `io("https://TVOJ-SERVIS.onrender.com")` i uključi odgovarajući CORS origin na serveru.
+5. `render.yaml` je uključen; server koristi `PORT` koji dodjeljuje platforma.
 
-## Trenutna pravila
+## Napomena
 
-- 1 do 8 igrača po sobi, pet znakova koda.
-- Domaćin pokreće igru i nastavlja krugove.
-- Jedan odgovor po igraču u krugu.
-- Bodovi su jednaki poziciji unosa na listi: rang 1 = 1 bod, rang 100 = 100 bodova.
-- Odgovor mora tačno odgovarati imenu unosa iz liste; autocomplete nudi važeće odgovore.
-- Server računa bodove i ne prihvata bodove koje šalje klijent.
-
-## Poznate stavke prije javnog lansiranja
-
-- Dodati testove za ponovni ulazak/disconnect, validaciju poteza i rematch.
-- Dodati izbor kategorija, podešavanje broja rundi, timeout i zaštitu od zloupotrebe.
-- Dodati eksplicitno dugme za napuštanje sobe i ponovni ulazak nakon refresh-a.
-- Dodati punu, urednički provjerenu bazu od 100 unosa po kategoriji. Demo liste nisu konačni verifikovani Top 100 podaci.
+Rangovi u zabavnim i promjenjivim kategorijama su urednički i mogu se razlikovati od drugih izvora. Za strogo takmičarsku upotrebu potrebno je unaprijed dogovoriti metodologiju i datum provjere za svaku listu.

@@ -6,7 +6,7 @@ function show(id){sections.forEach(s=>$(s).classList.toggle("hidden",s!==id));}
 function name(){return $("playerName").value.trim()||"Igrač";}
 function message(id,t){$(id).textContent=t||"";}
 function emitAck(event,data){return new Promise(resolve=>socket.emit(event,data||{},resolve));}
-$("createBtn").onclick=async()=>{message("entryMsg","");const r=await emitAck("room:create",{name:name(),maxRounds:5});if(r.ok){room=r.room;render();}else message("entryMsg",r.error);};
+$("createBtn").onclick=async()=>{message("entryMsg","");const r=await emitAck("room:create",{name:name(),maxRounds:Number($("roundCount").value),listRepeats:Number($("listRepeats").value)});if(r.ok){room=r.room;render();}else message("entryMsg",r.error);};
 $("joinBtn").onclick=async()=>{message("entryMsg","");const c=$("roomCode").value.trim().toUpperCase();if(!c)return message("entryMsg","Unesi kod sobe.");const r=await emitAck("room:join",{code:c,name:name()});if(r.ok){room=r.room;render();}else message("entryMsg",r.error);};
 $("roomCode").addEventListener("input",e=>e.target.value=e.target.value.toUpperCase().replace(/[^A-Z0-9]/g,"").slice(0,5));
 $("copyCode").onclick=async()=>{try{await navigator.clipboard.writeText(room.code);$("copyCode").textContent="Kod kopiran ✓";}catch{$("copyCode").textContent=room.code;}};
@@ -14,7 +14,7 @@ $("startBtn").onclick=async()=>{const r=await emitAck("game:start",{});if(!r.ok)
 $("nextBtn").onclick=async()=>{const r=await emitAck("game:next",{});if(!r.ok)message("nextHint",r.error);};
 $("againBtn").onclick=()=>location.reload();
 $("guessInput").addEventListener("input",()=>{
-  // Free-form entry only. Suggestions would leak whether an answer is in the Top 100.
+  // Free-form entry only. Suggestions would reveal valid Top 15 answers.
   $("submitGuess").disabled=!$("guessInput").value.trim() || $("guessInput").disabled;
 });
 $("submitGuess").onclick=async()=>{
