@@ -1,6 +1,6 @@
 const socket=io();
 const $=id=>document.getElementById(id);
-let room=null, selectedGuess="", suggestions=[], myId=null;
+let room=null, myId=null, renderedRoundKey="";
 const sections=["landing","roomView","gameView","revealView","finishedView"];
 function show(id){sections.forEach(s=>$(s).classList.toggle("hidden",s!==id));}
 function name(){return $("playerName").value.trim()||"Igrač";}
@@ -14,16 +14,18 @@ $("startBtn").onclick=async()=>{const r=await emitAck("game:start",{});if(!r.ok)
 $("nextBtn").onclick=async()=>{const r=await emitAck("game:next",{});if(!r.ok)message("nextHint",r.error);};
 $("againBtn").onclick=()=>location.reload();
 $("guessInput").addEventListener("input",()=>{
- const q=$("guessInput").value.trim().toLocaleLowerCase();selectedGuess="";
- if(!q||!room?.category){$("suggestions").classList.add("hidden");$("submitGuess").disabled=true;return;}
- // Candidate names are sent by server only to the active player via list:options.
- suggestions=(window.currentOptions||[]).filter(x=>x.name.toLocaleLowerCase().includes(q)).slice(0,8);
- renderSuggestions();$("submitGuess").disabled=true;
+  // Free-form entry only. Suggestions would leak whether an answer is in the Top 100.
+  $("submitGuess").disabled=!$("guessInput").value.trim() || $("guessInput").disabled;
 });
-function renderSuggestions(){const el=$("suggestions");el.innerHTML="";suggestions.forEach(item=>{const d=document.createElement("div");d.className="suggestion";d.textContent=item.name;d.onclick=()=>{selectedGuess=item.name;$("guessInput").value=item.name;el.classList.add("hidden");$("submitGuess").disabled=false;};el.appendChild(d);});el.classList.toggle("hidden",!suggestions.length);}
-$("submitGuess").onclick=async()=>{if(!selectedGuess)return;const r=await emitAck("game:guess",{guess:selectedGuess});if(!r.ok)message("gameMsg",r.error);else{$("guessInput").disabled=true;$("submitGuess").disabled=true;message("gameMsg","Odgovor zaključan.");}};
+$("submitGuess").onclick=async()=>{
+  const guess=$("guessInput").value.trim();
+  if(!guess)return;
+  const r=await emitAck("game:guess",{guess});
+  if(!r.ok)message("gameMsg",r.error);
+  else{$("guessInput").disabled=true;$("submitGuess").disabled=true;message("gameMsg","Odgovor zaključan.");}
+};
 socket.on("room:update",r=>{room=r;render();});
-socket.on("list:options",items=>{window.currentOptions=items;});
+socket.on("category:meta",meta=>{$("categoryDesc").textContent=meta.description||"";});
 function renderPlayers(){ $("playersList").innerHTML="";$("scoreList").innerHTML="";$("playerCount").textContent=`${room.players.length} / 8`;
  const sorted=[...room.players].sort((a,b)=>b.score-a.score);
  room.players.forEach((p,i)=>{const el=document.createElement("div");el.className="player";el.innerHTML=`<div class="avatar">${escapeHtml(p.name[0].toUpperCase())}</div><div class="player-name">${escapeHtml(p.name)} ${p.id===room.hostId?'<span class="you">DOMAĆIN</span>':''}${p.id===socket.id?'<span class="you">TI</span>':''}</div><span class="player-score">${p.score} <small>PTS</small></span>`;$("playersList").appendChild(el);});
@@ -32,7 +34,17 @@ function renderPlayers(){ $("playersList").innerHTML="";$("scoreList").innerHTML
 }
 function render(){if(!room){show("landing");return;} $("roomCodeBig").textContent=room.code;renderPlayers();
  if(room.phase==="lobby"){show("roomView");return;}
- if(room.phase==="playing"){show("gameView");$("roundNo").textContent=`${room.round} / ${room.maxRounds}`;$("categoryTitle").textContent=room.category||"Kategorija";const me=room.players.find(p=>p.id===socket.id),turn=room.players.find(p=>p.id===room.turnPlayerId);$("turnText").textContent=turn?(turn.id===socket.id?"Tvoj potez":`Na potezu: ${turn.name}`):"Čekanje";const active=room.turnPlayerId===socket.id&&!me?.guess;$("guessInput").disabled=!active;$("guessInput").placeholder=active?"Počni pisati odgovor...":"Čekaj svoj potez";$("submitGuess").disabled=true;if(!active){$("suggestions").classList.add("hidden");}return;}
+ if(room.phase==="playing"){
+  const roundKey=`${room.code}:${room.round}:${room.listId}`;
+  if(roundKey!==renderedRoundKey){
+    renderedRoundKey=roundKey;
+    $("guessInput").value="";
+    $("guessInput").disabled=false;
+    $("submitGuess").disabled=true;
+    $("suggestions").classList.add("hidden");
+    message("gameMsg","");
+  }
+  show("gameView");$("roundNo").textContent=`${room.round} / ${room.maxRounds}`;$("categoryTitle").textContent=room.category||"Kategorija";const me=room.players.find(p=>p.id===socket.id),turn=room.players.find(p=>p.id===room.turnPlayerId);$("turnText").textContent=turn?(turn.id===socket.id?"Tvoj potez":`Na potezu: ${turn.name}`):"Čekanje";const active=room.turnPlayerId===socket.id&&!me?.guess;$("guessInput").disabled=!active;$("guessInput").placeholder=active?"Upiši svoj odgovor...":"Čekaj svoj potez";$("submitGuess").disabled=!active||!$("guessInput").value.trim();if(!active){$("suggestions").classList.add("hidden");}return;}
  if(room.phase==="reveal"){show("revealView");renderResults(false);$("nextBtn").classList.toggle("hidden",room.hostId!==socket.id);$("nextHint").textContent=room.hostId===socket.id?"Pokreni sljedeći krug kada ste spremni.":"Čeka se domaćin.";return;}
  if(room.phase==="finished"){show("finishedView");renderResults(true);return;}
 }

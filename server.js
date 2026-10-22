@@ -22,9 +22,7 @@ const publicRoom = r => ({
 });
 function sendRoom(r){
   io.to(r.code).emit("room:update", publicRoom(r));
-  if(r.phase==="playing" && r.players[r.turnIndex]) {
-    const target=r.players[r.turnIndex];
-    io.to(target.id).emit("list:options", DATA[r.listId].items);
+  if(r.phase==="playing") {
     io.to(r.code).emit("category:meta", {description:DATA[r.listId].description||""});
   }
 }
@@ -73,13 +71,17 @@ io.on("connection", socket => {
     if(p.guess) return cb({ok:false,error:"Već si odgovorio u ovom krugu."});
     const text=String(guess||"").trim().slice(0,100);
     if(!text) return cb({ok:false,error:"Upiši odgovor."});
+    // Never reveal whether a guess exists in the list before the round ends.
+    // Any non-empty answer consumes the player's one attempt.
     const item=DATA[r.listId].items.find(x=>x.name.toLocaleLowerCase()===text.toLocaleLowerCase());
-    if(!item) return cb({ok:false,error:"Odgovor nije pronađen u listi. Izaberi prijedlog iz liste."});
-    p.guess=item.name; p.rank=item.rank; p.lastPoints=item.rank; p.score+=item.rank; p.answers++;
-    const result={player:p.name,guess:item.name,rank:item.rank,points:item.rank};
+    p.guess=text;
+    p.rank=item ? item.rank : null;
+    p.lastPoints=item ? item.rank : 0;
+    p.score+=p.lastPoints;
+    p.answers++;
     if(r.turnIndex+1<r.players.length){r.turnIndex++;}
-    else {finishRound(r); return cb({ok:true,result});}
-    sendRoom(r); cb({ok:true,result});
+    else {finishRound(r); return cb({ok:true});}
+    sendRoom(r); cb({ok:true});
   });
   socket.on("game:next", (_, cb=()=>{}) => {
     const r=[...rooms.values()].find(x=>x.players.some(p=>p.id===socket.id));
